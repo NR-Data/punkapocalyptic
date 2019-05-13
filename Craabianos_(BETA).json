@@ -1,0 +1,656 @@
+{
+  "catalogue": {
+    "name": "Craabianos (BETA)",
+    "id": "047f-7ec7-9d95-77c3",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "826e-11bf-2cf9-8cc1",
+    "gameSystemRevision": 2,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "selectionEntries": [
+      {
+        "name": "Grumete",
+        "id": "5e87-bc7d-0b49-5317",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Miembros de la Banda", "id": "b9d2-fdf8-94ee-8fdd", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 18}],
+        "profiles": [
+          {
+            "name": "Grumete",
+            "id": "4e82-d268-c23d-72a2",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "3", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "3", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "4", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "4", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "3", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "3", "typeId": "05aa-0530-0513-0805"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "45db-ff88-1979-7ed2",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "10f1-14bb-84f7-817f",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "73f6-9b24-670c-d0a1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {"name": "Maza ligera", "id": "ca63-4755-e1cb-c72e", "hidden": false, "targetId": "d92e-ef73-87ec-72bc", "type": "selectionEntry"},
+              {"name": "Filo Pequeño", "id": "056f-0474-a3b5-4e4e", "hidden": false, "targetId": "419a-5257-f94f-9fe8", "type": "selectionEntry"},
+              {"name": "Pistola de mecha", "id": "1392-2fc3-70df-8723", "hidden": false, "targetId": "c744-2bd8-cff7-5a1c", "type": "selectionEntry"},
+              {"name": "Trabuco", "id": "eee4-5e74-541a-3981", "hidden": false, "targetId": "55c2-2bd4-23ae-75c9", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Blindajes",
+            "id": "860c-4b02-8c7f-40c7",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "2931-4b12-c523-a2db",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {"name": "Cuero endurecido", "id": "87ce-f788-3d1e-8ca9", "hidden": false, "targetId": "19be-eaec-7359-18ff", "type": "selectionEntry"},
+              {"name": "Ropa resistente", "id": "9e01-85fb-418d-fd7b", "hidden": false, "targetId": "23d2-809e-388c-b716", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "db3f-2db4-4e8d-ff47",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [{"name": "Protección contra contaminación", "id": "16fa-6731-a239-9b0b", "hidden": false, "targetId": "ca5d-75c4-0a8f-8397", "type": "selectionEntry"}]
+          }
+        ]
+      },
+      {
+        "name": "Mariscador",
+        "id": "0585-019e-b05d-3d4c",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e168-ea0e-5556-3c34", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 25}],
+        "entryLinks": [
+          {
+            "name": "Ropa resistente",
+            "id": "f5b0-beb5-7f82-14ca",
+            "hidden": false,
+            "targetId": "23d2-809e-388c-b716",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "7db9-e7c8-386f-5944",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "90f3-d8ee-0182-7430",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {"name": "Ungido", "id": "3496-b174-0671-c149", "hidden": false, "targetId": "0551-a4b3-c00d-a319", "type": "selectionEntry"}
+        ],
+        "infoLinks": [
+          {"name": "Todoterreno", "id": "dc97-b560-87a8-251f", "hidden": false, "targetId": "c26e-e766-77e9-0f11", "type": "rule"},
+          {"name": "Trepador", "id": "720b-5223-f6ff-0702", "hidden": false, "targetId": "1276-351b-5c15-2f73", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Mariscador",
+            "id": "54b2-aeab-715f-9300",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "3", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "3", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "5", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "4", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "5", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "4", "typeId": "05aa-0530-0513-0805"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "4876-549e-7189-f870",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "7b06-18e8-f42f-f77d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "fa44-afb3-216e-93c1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {"name": "Cuchillos Arrojadizos", "id": "7aa9-9c76-1352-5517", "hidden": false, "targetId": "3c65-4da9-e65c-c9af", "type": "selectionEntry"},
+              {"name": "Filo Pequeño", "id": "b610-a113-9a8a-1e39", "hidden": false, "targetId": "419a-5257-f94f-9fe8", "type": "selectionEntry"},
+              {"name": "Red", "id": "f57b-c288-2a73-ace6", "hidden": false, "targetId": "f77a-c58f-d4ea-dc04", "type": "selectionEntry"},
+              {"name": "Tridente", "id": "3ba6-b6e7-45d1-a5b5", "hidden": false, "targetId": "8885-4ec7-5ea5-16e4", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Blindajes",
+            "id": "d213-a2c6-1ab4-3096",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "76bf-c94e-e3b3-767e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Cuero endurecido",
+                "id": "fb0d-b792-2db8-2de7",
+                "hidden": false,
+                "targetId": "19be-eaec-7359-18ff",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "36bb-a3f5-b700-8e64",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "d82d-c4d0-7d02-4778",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [{"name": "Protección contra contaminación", "id": "a84a-0fa6-3e2e-6e31", "hidden": false, "targetId": "ca5d-75c4-0a8f-8397", "type": "selectionEntry"}]
+          }
+        ]
+      },
+      {
+        "name": "Arponero",
+        "id": "880b-1e45-17cc-410a",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b2b8-76c3-a092-0d49", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 35}],
+        "entryLinks": [
+          {
+            "name": "Cuero endurecido",
+            "id": "67c8-e20f-2732-18b1",
+            "hidden": false,
+            "targetId": "19be-eaec-7359-18ff",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "2056-d586-7490-ed51",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "34b1-0bca-a243-1642",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {"name": "Ungido", "id": "2466-3d44-3e66-8171", "hidden": false, "targetId": "0551-a4b3-c00d-a319", "type": "selectionEntry"}
+        ],
+        "profiles": [
+          {
+            "name": "Arponero",
+            "id": "b503-29e2-6877-4bca",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "4", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "4", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "3", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "5", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "4", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "3", "typeId": "05aa-0530-0513-0805"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "1ec6-2b0c-9e25-2d44",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "32b4-a03c-7769-404e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "75d9-3ca2-0224-1292",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {"name": "Filo Pesado", "id": "1fdf-e3ba-5dc4-00f5", "hidden": false, "targetId": "decd-6084-2b08-f063", "type": "selectionEntry"},
+              {"name": "Filo Pequeño", "id": "c7ac-9fd2-dfdf-46d4", "hidden": false, "targetId": "419a-5257-f94f-9fe8", "type": "selectionEntry"},
+              {"name": "Cañón de mano", "id": "b43e-cf55-da43-37f1", "hidden": false, "targetId": "4d8a-c60e-112c-b1f1", "type": "selectionEntry"},
+              {"name": "Filo Medio", "id": "1b85-9140-b3e8-9076", "hidden": false, "targetId": "9b07-7c90-d22e-e465", "type": "selectionEntry"},
+              {"name": "Arpón", "id": "0e98-2156-640f-f0ca", "hidden": false, "targetId": "b18a-770e-927a-001f", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Blindajes",
+            "id": "d13e-7336-4bf9-4cea",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "cbe9-ff20-a610-cf39",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [{"name": "Armadura quitinosa", "id": "d79a-8058-0f8b-af53", "hidden": false, "targetId": "1d36-a94f-23ba-2301", "type": "selectionEntry"}]
+          },
+          {
+            "name": "Equipo",
+            "id": "1c85-a1f2-7cbe-a277",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [{"name": "Protección contra contaminación", "id": "4806-e40b-4cb5-1201", "hidden": false, "targetId": "ca5d-75c4-0a8f-8397", "type": "selectionEntry"}]
+          }
+        ]
+      },
+      {
+        "name": "Marinero",
+        "id": "07f8-3862-6c17-c50d",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b9d3-88b2-4044-f445", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 35}],
+        "entryLinks": [
+          {
+            "name": "Cuero endurecido",
+            "id": "da5f-8bc5-3f62-ee4a",
+            "hidden": false,
+            "targetId": "19be-eaec-7359-18ff",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "b1bb-c3df-3c7d-e228",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "9504-46ac-2c3f-d3f3",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {"name": "Ungido", "id": "a51f-b695-c540-be13", "hidden": false, "targetId": "0551-a4b3-c00d-a319", "type": "selectionEntry"}
+        ],
+        "profiles": [
+          {
+            "name": "Marinero",
+            "id": "c6c5-036f-2254-5d6a",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "4", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "4", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "5", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "4", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "4", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "3", "typeId": "05aa-0530-0513-0805"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "7409-a939-cb21-51a9",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "46ef-758b-d05b-0437",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "4107-66d9-67be-84cf",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {"name": "Trabuco", "id": "80a2-07ae-09e7-b392", "hidden": false, "targetId": "55c2-2bd4-23ae-75c9", "type": "selectionEntry"},
+              {"name": "Filo Pequeño", "id": "4d72-44b5-6ab5-9a15", "hidden": false, "targetId": "419a-5257-f94f-9fe8", "type": "selectionEntry"},
+              {"name": "Pistola de mecha", "id": "4d52-820d-26b0-9c08", "hidden": false, "targetId": "c744-2bd8-cff7-5a1c", "type": "selectionEntry"},
+              {"name": "Filo Medio", "id": "702c-cf33-75bd-5446", "hidden": false, "targetId": "9b07-7c90-d22e-e465", "type": "selectionEntry"},
+              {"name": "Maza", "id": "9c09-50e6-cb1a-c518", "hidden": false, "targetId": "21b4-cf82-69a8-fbdb", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Blindajes",
+            "id": "a959-2d46-e045-7e08",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "29b8-a28b-a94b-b2a1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [{"name": "Armadura quitinosa", "id": "5db9-e8df-1c5b-21ad", "hidden": false, "targetId": "1d36-a94f-23ba-2301", "type": "selectionEntry"}]
+          },
+          {
+            "name": "Equipo",
+            "id": "ed22-a846-82ca-1249",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [{"name": "Protección contra contaminación", "id": "d12e-10a0-d64d-02aa", "hidden": false, "targetId": "ca5d-75c4-0a8f-8397", "type": "selectionEntry"}]
+          }
+        ]
+      },
+      {
+        "name": "Capitán",
+        "id": "d293-62fb-d96e-8b80",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b259-280f-15af-86ab", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "constraints": [
+          {
+            "id": "38f9-cf43-a42f-44b0",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 55}],
+        "entryLinks": [
+          {
+            "name": "Cuero endurecido",
+            "id": "a2c1-63db-1d2d-2a27",
+            "hidden": false,
+            "targetId": "19be-eaec-7359-18ff",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "93da-1ec4-c580-29b7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "aaa6-3c3f-7139-7038",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {"name": "Ungido", "id": "306b-8131-a444-e3fe", "hidden": false, "targetId": "0551-a4b3-c00d-a319", "type": "selectionEntry"}
+        ],
+        "profiles": [
+          {
+            "name": "Capitán",
+            "id": "842f-dcaa-6243-755d",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "3", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "5", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "5", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "5", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "5", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "4", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "3", "typeId": "05aa-0530-0513-0805"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Blindajes",
+            "id": "ad18-7a7c-42bc-fbd2",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "955e-037c-21f3-3bd0",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [{"name": "Armadura quitinosa", "id": "3f72-edd3-de41-4884", "hidden": false, "targetId": "1d36-a94f-23ba-2301", "type": "selectionEntry"}]
+          },
+          {
+            "name": "Armas",
+            "id": "a82b-2bad-88be-f6c8",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "389d-a6c4-3d23-f9db",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "151d-66dc-de7e-6d80",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {"name": "Trabuco", "id": "53e4-29d0-648c-8d9d", "hidden": false, "targetId": "55c2-2bd4-23ae-75c9", "type": "selectionEntry"},
+              {"name": "Filo Pequeño", "id": "5f67-6a06-d226-47e8", "hidden": false, "targetId": "419a-5257-f94f-9fe8", "type": "selectionEntry"},
+              {"name": "Pistola de mecha", "id": "e7a2-be62-4b5d-e25a", "hidden": false, "targetId": "c744-2bd8-cff7-5a1c", "type": "selectionEntry"},
+              {"name": "Filo Medio", "id": "0fd7-217b-f92a-1714", "hidden": false, "targetId": "9b07-7c90-d22e-e465", "type": "selectionEntry"},
+              {"name": "Maza", "id": "543e-84b3-93f7-dea6", "hidden": false, "targetId": "21b4-cf82-69a8-fbdb", "type": "selectionEntry"},
+              {"name": "Filo Pesado", "id": "2e13-75bd-288d-7c1e", "hidden": false, "targetId": "decd-6084-2b08-f063", "type": "selectionEntry"},
+              {"name": "Arpón", "id": "0693-5810-e70c-75f5", "hidden": false, "targetId": "b18a-770e-927a-001f", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "b0bd-0351-2811-93ae",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [{"name": "Protección contra contaminación", "id": "5211-235a-a7e0-00af", "hidden": false, "targetId": "ca5d-75c4-0a8f-8397", "type": "selectionEntry"}]
+          }
+        ]
+      }
+    ]
+  }
+}

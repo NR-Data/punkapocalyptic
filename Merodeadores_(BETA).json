@@ -1,0 +1,679 @@
+{
+  "catalogue": {
+    "name": "Merodeadores (BETA)",
+    "id": "f767-30ea-a2c9-6738",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "826e-11bf-2cf9-8cc1",
+    "gameSystemRevision": 2,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "profileTypes": [{"name": "Reglas", "id": "cc30-bd7e-d30a-b6a2", "characteristicTypes": [{"name": "Reglas", "id": "8e38-cf6b-571e-b5f4"}]}],
+    "selectionEntries": [
+      {
+        "name": "Manitas",
+        "id": "bc3e-3f70-6ac1-d340",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Miembros de la Banda", "id": "0b31-5556-f746-848f", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 15}],
+        "profiles": [
+          {
+            "name": "Manitas",
+            "id": "cc3b-aff4-c2e5-cf9f",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "2", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "2", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "3", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "2", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "2", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "6", "typeId": "05aa-0530-0513-0805"}
+            ]
+          },
+          {
+            "name": "Planificador",
+            "id": "ed37-ed5a-2dc8-91ad",
+            "hidden": false,
+            "typeId": "cc30-bd7e-d30a-b6a2",
+            "typeName": "Reglas",
+            "characteristics": [
+              {
+                "name": "Reglas",
+                "$text": "Un Manitas calcula las acciones que le den las mejores posibilidades de victoria. Puede gastarun Turno de Acción completo en planificar, y en el siguiente Turno de juego tendrá un bonificador de +1 a las Acciones, Agilidad y Técnica.",
+                "typeId": "8e38-cf6b-571e-b5f4"
+              }
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Rata de Túnel",
+            "id": "ef1c-10b2-d8f9-0360",
+            "description": "Debido a su adaptación a ver en los túneles, las miniaturas con esta regla sufrirán los siguientes modificadores al Disparo debido a las distancias +2/0/-2 en lugar del habitual +1/0/-1. Además en las reglas opcionales de Clima, una miniatura con esta regla ignora los efectos negativos de en Combate nocturno, pero tiene un -1 adicional a la Precisión en A todo sol.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "49bb-ca72-5e44-06ce",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "e347-e6fe-8eb3-4766",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {"name": "Maza ligera", "id": "2374-6532-6d24-1439", "hidden": false, "targetId": "d92e-ef73-87ec-72bc", "type": "selectionEntry"},
+              {"name": "Filo Pequeño", "id": "40b3-3bef-726e-ae0f", "hidden": false, "targetId": "419a-5257-f94f-9fe8", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "f3bb-265f-13db-196e",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Destornillador sónico",
+                "id": "d1c3-a8e0-801d-4ded",
+                "hidden": false,
+                "targetId": "8209-441e-ce97-3c7d",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "63d9-1809-ac29-472c",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "a80e-b391-eb1b-da1c",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "1a4a-e78d-102a-a1d3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "09e7-a3a1-1e9a-4374",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Protección contra contaminación",
+                    "id": "7ac6-8a47-38a1-f3be",
+                    "hidden": false,
+                    "typeId": "fc07-a6a5-53f7-5bf4",
+                    "typeName": "Equipo",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "Una miniatura con protección contra la contaminación no sufre ninguno de los efectos del Terreno contaminado",
+                        "typeId": "2714-c01b-af48-f5d7"
+                      }
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Protección contra contaminación",
+                    "id": "d873-a7a4-f7ce-3a24",
+                    "description": "Una miniatura con protección contra la contaminación no sufre ninguno de los efectos del Terreno contaminado",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Blindaje",
+            "id": "1eb5-b71e-21d1-b0e8",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [
+              {
+                "name": "Ropa resistente",
+                "id": "93a4-c54f-34e7-b7ab",
+                "hidden": false,
+                "targetId": "23d2-809e-388c-b716",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "712a-ddce-0604-bbb7",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Acechador",
+        "id": "321d-565f-8256-c2d1",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Miembros de la Banda", "id": "1f5c-fd0e-24a4-de10", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "constraints": [
+          {
+            "id": "7581-7a64-9980-0fb2",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 50
+          }
+        ],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 60}],
+        "profiles": [
+          {
+            "name": "Acechador",
+            "id": "42cf-6a09-d2e8-193d",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "3", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "4", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "4", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "4", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "4", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "4", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "4", "typeId": "05aa-0530-0513-0805"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Camuflaje",
+            "id": "1bdb-52e8-2e07-59dc",
+            "description": "Algunas miniaturas son difíciles de distinguir del entorno. Las miniaturas que disparen contra\nuna miniatura con esta regla especial, sufrirán un -2 adicional a la Precisión en las tiradas para evitar Cobertura\n(lo que hace un total de -5).",
+            "hidden": false,
+            "page": 31
+          },
+          {
+            "name": "Todoterreno",
+            "id": "3998-93f4-6545-c695",
+            "description": "Una miniatura con esta regla considera el Terreno pila chungo como Terreno chungo, y el\nTerreno chungo como Terreno normal",
+            "hidden": false,
+            "page": 35
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "a11c-5d36-6851-630b",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "a2d5-46d7-d977-2a42",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "524a-765e-3a17-35c5",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {"name": "Maza ligera", "id": "1a95-e46b-7de2-e003", "hidden": false, "targetId": "d92e-ef73-87ec-72bc", "type": "selectionEntry"},
+              {"name": "Filo Pequeño", "id": "a4ad-dbcf-4db8-6f2e", "hidden": false, "targetId": "419a-5257-f94f-9fe8", "type": "selectionEntry"},
+              {"name": "Maza", "id": "be85-71d9-f9fa-e2c6", "hidden": false, "targetId": "21b4-cf82-69a8-fbdb", "type": "selectionEntry"},
+              {"name": "Escopeta", "id": "4126-7e31-b8f7-6583", "hidden": false, "targetId": "52f3-2790-4e4d-c0ab", "type": "selectionEntry"},
+              {"name": "Filo Medio", "id": "d38c-6708-4454-19d0", "hidden": false, "targetId": "9b07-7c90-d22e-e465", "type": "selectionEntry"},
+              {"name": "Ballesta", "id": "12a6-ca6f-8b52-5d9c", "hidden": false, "targetId": "1b3a-f4ed-ec86-e614", "type": "selectionEntry"},
+              {"name": "Pistola", "id": "beba-8a7f-55cf-e4ca", "hidden": false, "targetId": "172f-a1d5-774f-9955", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "2fc3-9653-ea48-5350",
+            "collective": false,
+            "hidden": false,
+            "entryLinks": [{"name": "Protección contra contaminación", "id": "04b0-8bc2-a1fc-a119", "hidden": false, "targetId": "ca5d-75c4-0a8f-8397", "type": "selectionEntry"}]
+          },
+          {
+            "name": "Blindaje",
+            "id": "5ed1-b6a9-d749-233b",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Ropa resistente",
+                "id": "fadb-8776-7757-ced0",
+                "collective": false,
+                "hidden": false,
+                "page": 29,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "d538-8c84-0854-c860",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "2c8a-1c79-2067-c10d",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 0}],
+                "profiles": [
+                  {
+                    "name": "Ropa resistente",
+                    "id": "ed8a-8b1b-55aa-183f",
+                    "hidden": false,
+                    "typeId": "ce40-6003-7d6d-2377",
+                    "typeName": "Blindajes",
+                    "characteristics": [{"name": "Reglas Especiales", "typeId": "688c-666b-55af-8015"}, {"name": "Blindaje", "$text": "1", "typeId": "1dba-77b1-2665-5d33"}]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Armadura metálica",
+                    "id": "c9e0-8515-0f56-21ab",
+                    "collective": false,
+                    "hidden": false,
+                    "page": 30,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "39e8-c872-5c45-3eb7",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 15}],
+                    "profiles": [
+                      {
+                        "name": "Armadura metálica",
+                        "id": "7ded-4b3f-f37a-5801",
+                        "hidden": false,
+                        "page": 30,
+                        "typeId": "ce40-6003-7d6d-2377",
+                        "typeName": "Blindajes",
+                        "characteristics": [{"name": "Reglas Especiales", "typeId": "688c-666b-55af-8015"}, {"name": "Blindaje", "$text": "4", "typeId": "1dba-77b1-2665-5d33"}]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chaleco antibalas",
+                    "id": "cdd9-08f7-2df3-03f3",
+                    "collective": false,
+                    "hidden": false,
+                    "page": 30,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "830c-a39f-2092-8b3a",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 15}],
+                    "profiles": [
+                      {
+                        "name": "Chaleco antibalas",
+                        "id": "74c3-f389-8cba-ab73",
+                        "hidden": false,
+                        "page": 30,
+                        "typeId": "ce40-6003-7d6d-2377",
+                        "typeName": "Blindajes",
+                        "characteristics": [
+                          {"name": "Reglas Especiales", "typeId": "688c-666b-55af-8015"},
+                          {"name": "Blindaje", "$text": "3 ó 5/6/7 contra armas con la regla especial Arma de fuego", "typeId": "1dba-77b1-2665-5d33"}
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cuero endurecido",
+                    "id": "9d70-c0cb-8342-bec8",
+                    "collective": false,
+                    "hidden": false,
+                    "page": 30,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "f065-354b-0ccb-d5e1",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 10}],
+                    "profiles": [
+                      {
+                        "name": "Cuero endurecido",
+                        "id": "b3af-17e1-755d-1092",
+                        "hidden": false,
+                        "page": 30,
+                        "typeId": "ce40-6003-7d6d-2377",
+                        "typeName": "Blindajes",
+                        "characteristics": [{"name": "Reglas Especiales", "typeId": "688c-666b-55af-8015"}, {"name": "Blindaje", "$text": "3", "typeId": "1dba-77b1-2665-5d33"}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Termita",
+        "id": "3978-56af-c98e-b7fb",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2c37-df4f-c577-5f22", "hidden": false, "primary": true, "targetId": "afd7-5e41-946e-541e"}],
+        "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 25}],
+        "profiles": [
+          {
+            "name": "Termita",
+            "id": "358d-2a53-b81b-ed3f",
+            "hidden": false,
+            "typeId": "99ae-9a0c-255b-0078",
+            "typeName": "Miniatura",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "49fc-2c48-8ab3-6c96"},
+              {"name": "Combate", "$text": "3", "typeId": "7390-585f-7459-8ef0"},
+              {"name": "Precisión", "$text": "3", "typeId": "f11e-36f7-8882-3b8f"},
+              {"name": "Agilidad", "$text": "3", "typeId": "9d77-d231-4ab5-b2a9"},
+              {"name": "Fuerza", "$text": "5", "typeId": "fa2f-7116-70fb-59ce"},
+              {"name": "Dureza", "$text": "4", "typeId": "a36a-edc4-b5c2-2b3c"},
+              {"name": "Técnica", "$text": "3", "typeId": "05aa-0530-0513-0805"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Rata de Túnel",
+            "id": "d57f-0474-dcb7-0fc2",
+            "description": "Debido a su adaptación a ver en los túneles, las miniaturas con esta regla sufrirán los siguientes modificadores al Disparo debido a las distancias +2/0/-2 en lugar del habitual +1/0/-1. Además en las reglas opcionales de Clima, una miniatura con esta regla ignora los efectos negativos de en Combate nocturno, pero tiene un -1 adicional a la Precisión en A todo sol.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "6266-8307-3b13-ed6d",
+            "collective": false,
+            "hidden": false,
+            "constraints": [
+              {
+                "id": "713a-bd65-c4fc-bbe5",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "f97c-b508-cb91-faaa",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {"name": "Maza Pesada", "id": "34a9-6240-1fb4-8a18", "hidden": false, "targetId": "415f-042e-01a4-e9ce", "type": "selectionEntry"},
+              {"name": "Explosivos", "id": "cec6-0bcf-1e4b-25af", "hidden": false, "targetId": "94f2-bda6-1ce7-108d", "type": "selectionEntry"},
+              {"name": "Láser minero", "id": "0637-13fc-d2fe-a570", "hidden": false, "targetId": "675b-e5e1-1cb1-44c9", "type": "selectionEntry"},
+              {"name": "Filo Pesado", "id": "7ff0-1c0e-93ec-4657", "hidden": false, "targetId": "decd-6084-2b08-f063", "type": "selectionEntry"},
+              {"name": "Martillo neumático", "id": "67bb-6d05-e563-ef01", "hidden": false, "targetId": "cf35-c898-2ae2-0f69", "type": "selectionEntry"}
+            ]
+          },
+          {
+            "name": "Blindaje",
+            "id": "2724-bd80-1ed7-33f0",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Cuero endurecido",
+                "id": "73a1-2474-7b92-2a75",
+                "collective": false,
+                "hidden": false,
+                "page": 30,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "a9e0-1f62-393c-ef22",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "6595-d362-79d3-246b",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Cuero endurecido",
+                    "id": "e539-5046-1f37-a8f1",
+                    "hidden": false,
+                    "page": 30,
+                    "typeId": "ce40-6003-7d6d-2377",
+                    "typeName": "Blindajes",
+                    "characteristics": [{"name": "Reglas Especiales", "typeId": "688c-666b-55af-8015"}, {"name": "Blindaje", "$text": "3", "typeId": "1dba-77b1-2665-5d33"}]
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "name": "Armadura metálica",
+                    "id": "9b15-0a3f-3241-e226",
+                    "collective": false,
+                    "hidden": false,
+                    "page": 30,
+                    "type": "upgrade",
+                    "constraints": [
+                      {
+                        "id": "d416-af32-80e0-95ab",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "puntos", "typeId": "930f-290f-3dc1-0767", "value": 10}],
+                    "profiles": [
+                      {
+                        "name": "Armadura metálica",
+                        "id": "3649-8198-4ab1-a1b2",
+                        "hidden": false,
+                        "page": 30,
+                        "typeId": "ce40-6003-7d6d-2377",
+                        "typeName": "Blindajes",
+                        "characteristics": [{"name": "Reglas Especiales", "typeId": "688c-666b-55af-8015"}, {"name": "Blindaje", "$text": "4", "typeId": "1dba-77b1-2665-5d33"}]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "b4f5-e2f2-6e72-c83f",
+            "collective": false,
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "7f57-e2aa-38fe-39f5",
+                "collective": false,
+                "hidden": false,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "60ec-f7d9-3b1c-aa7f",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "d032-7640-9883-b724",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Protección contra contaminación",
+                    "id": "ed26-a2bb-d453-c5f6",
+                    "hidden": false,
+                    "typeId": "fc07-a6a5-53f7-5bf4",
+                    "typeName": "Equipo",
+                    "characteristics": [{"name": "Reglas", "typeId": "2714-c01b-af48-f5d7"}]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Protección contra contaminación",
+                    "id": "1368-d26c-1161-3f76",
+                    "description": "Una miniatura con protección contra la contaminación no sufre ninguno de los efectos del Terreno contaminado",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
