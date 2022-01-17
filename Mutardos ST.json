@@ -1,0 +1,1501 @@
+{
+  "catalogue": {
+    "name": "Mutardos",
+    "id": "8d35-5bbf-09f3-40dd",
+    "battleScribeVersion": 2.03,
+    "comment": "Para poder añadir pochos a tu lista primero debes de añadir el cabezón.",
+    "gameSystemId": "fab7-8d9f-25c5-73bc",
+    "gameSystemRevision": 25,
+    "library": false,
+    "revision": 16,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Capitán Hammerica",
+        "id": "9a71-c1c9-8c04-d76b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bd3e-2900-c778-8569",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9b20-8ccc-1e1b-c41a", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Viejo Sajarratas",
+        "id": "efe9-bc89-16e5-f8fb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dc04-86d5-a9a1-2115",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1042-a183-3714-1250", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Crazy Mel",
+        "id": "e873-2937-85db-a4a1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0a14-7ef7-d9b3-4f7e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b8ea-99ca-16c7-f917", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Imperatrix Rabiosa",
+        "id": "69d3-05ba-f823-d00b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5489-a5be-4e7b-0a5a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6343-57c7-2a53-987f", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Lizzy Deville",
+        "id": "3eaa-cc47-f39e-a9b7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bb1b-9915-08d9-463c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8138-8a26-3792-e65d", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Magnus",
+        "id": "cbae-cde4-9db6-8b8e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f7d2-1bd6-01c0-adf8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c500-bfce-b720-5aa5", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Ochodedos",
+        "id": "aadc-d1a9-f67a-f133",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f5f7-4a7b-a541-cf36",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "bdda-b797-b206-4770", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Mongodrilo Dundee",
+        "id": "361c-78d1-c8d6-69f5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b364-8b90-b999-0049",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "620f-e505-938b-ea53", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Kim & Bashinger",
+        "id": "48f8-346b-211b-7d64",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "4027-f1df-0be5-4659",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6a06-be70-c22e-d7aa", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Irina (beta)",
+        "id": "8cb9-eb24-a4e6-d230",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d9fd-c7e0-6beb-0596",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9a93-0406-e223-6a51", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Cabezón",
+        "id": "febe-c0be-be8d-766d",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "35b3-f970-191c-ba9b", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 80}],
+        "infoLinks": [
+          {"name": "Barrera psíquica", "id": "f60a-dcc3-bb50-a825", "hidden": false, "targetId": "612d-6dda-59da-5e53", "type": "profile"},
+          {"name": "Titiritero", "id": "b3a7-b2c7-dc51-cb19", "hidden": false, "targetId": "4d9e-fa6c-0f72-4451", "type": "profile"},
+          {"name": "Choque mental", "id": "76e1-cc63-76f5-83ca", "hidden": false, "targetId": "349e-dd87-99e6-abc6", "type": "profile"},
+          {"name": "Desarme", "id": "8d77-a10d-cc30-aba2", "hidden": false, "targetId": "0065-d20d-6c56-7fae", "type": "profile"},
+          {"name": "Potenciación", "id": "e116-15e9-8e46-0024", "hidden": false, "targetId": "e6bc-ab40-354e-3794", "type": "profile"}
+        ],
+        "profiles": [
+          {
+            "name": "Cabezón",
+            "id": "9c82-20f8-19eb-c3ea",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "3", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "1", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "2", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "2", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "2", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "4", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Poderes psíquicos",
+            "id": "3e66-ab3b-1dde-b8bb",
+            "description": "Un cabezón posee todos los poderes psíquicos indicados en la sección correspondiente.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Grupo de pochos",
+            "id": "33e0-cb9f-2849-71fb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "New CategoryLink", "id": "be99-a962-8c27-300a", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+            "constraints": [
+              {
+                "id": "aa48-6291-0f85-3fe2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+            "selectionEntries": [
+              {
+                "name": "Pocho",
+                "id": "5148-e790-cf52-fad9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "unit",
+                "categoryLinks": [{"name": "New CategoryLink", "id": "7923-0515-ff69-c99b", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+                "constraints": [
+                  {
+                    "id": "ad48-3f4e-55ba-23da",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 2
+                  },
+                  {
+                    "id": "ea69-5c50-4f08-cfc4",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 5
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}],
+                "entryLinks": [
+                  {
+                    "name": "Garras y dientes",
+                    "id": "8574-e6f3-88e1-8238",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "60c8-413b-fbde-6088",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "7c1a-5830-a898-638b",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      },
+                      {
+                        "id": "5e7d-f0b5-4951-5584",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": false,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "min",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {"name": "Grupal", "id": "26ca-8d39-4d62-8a1f", "hidden": false, "targetId": "8c0f-35c4-4745-cfb6", "type": "rule"},
+                  {"name": "Monguer", "id": "a9f0-8c6a-3169-a9ea", "hidden": false, "targetId": "d8a8-7586-0a64-2537", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Pocho",
+                    "id": "75c4-604c-9cfd-fe74",
+                    "hidden": false,
+                    "typeId": "6b1d-6cde-5b9e-f5e2",
+                    "typeName": "Perfil",
+                    "characteristics": [
+                      {"name": "Acciones", "$text": "1", "typeId": "35d2-a478-8824-fda4"},
+                      {"name": "Combate", "$text": "1", "typeId": "a021-1c6d-e7d6-39ea"},
+                      {"name": "Precisión", "$text": "-", "typeId": "9d88-57a7-635e-3622"},
+                      {"name": "Agilidad", "$text": "1", "typeId": "e0a4-9656-26d9-6a44"},
+                      {"name": "Fuerza", "$text": "2", "typeId": "26a4-4364-5085-5f30"},
+                      {"name": "Dureza", "$text": "2", "typeId": "ee78-dafb-2dc2-a52a"},
+                      {"name": "Técnica", "$text": "-", "typeId": "8422-cbe6-6791-4a35"},
+                      {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "6ea4-cc19-fc85-53e7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Filo pequeño",
+                "id": "4f2b-81a3-c519-aea0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}],
+                "infoLinks": [{"name": "Herrumbre", "id": "0f95-0572-bc29-6783", "hidden": false, "targetId": "a11d-eaca-4efa-8fe5", "type": "rule"}]
+              },
+              {
+                "name": "Maza ligera",
+                "id": "cab0-882c-0c8f-a5eb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mutardo",
+        "id": "f866-da92-7a6c-71e3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3006-5f62-dcc5-ffb1", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 12}],
+        "profiles": [
+          {
+            "name": "Mutardo",
+            "id": "7624-c379-dfcc-20d9",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "3", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Mutaciones",
+            "id": "d747-a4c6-e3b5-5163",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "6598-800f-66c9-7fbf",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              },
+              {
+                "id": "973e-d616-c82a-0c3d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Cachas",
+                "id": "5631-ec77-13b6-3318",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "df79-b048-3226-d7ac",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "af77-e8fb-216a-941c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Capacitado",
+                "id": "7976-78a4-37c1-bbe6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b3a7-2833-79dd-fbc9",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "c7c1-0ec8-0527-3a40",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 20}]
+              },
+              {
+                "name": "Carga brutal",
+                "id": "3e5b-db7e-8410-2f39",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f9f1-0794-ba77-d0e3",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ce9b-019c-ed20-8da7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}]
+              },
+              {
+                "name": "Cola afilada",
+                "id": "e00f-7bcd-21f4-f5cd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "04a0-eec8-9443-1aa2",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "0d2c-face-7838-39d7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Corredor",
+                "id": "b19e-40e9-bb88-65b9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d680-a51a-28dc-d6c0",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "12f4-71db-5b02-1a79",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Espinas",
+                "id": "42f1-86d6-bb1f-2258",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5986-d919-269c-d2ea",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "dbfb-c5c7-22d3-6cb3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              },
+              {
+                "name": "Esputo ácido",
+                "id": "877e-de41-4ac2-040d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c121-ac08-6de9-0597",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ede3-81ac-a1e7-9080",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Extremidad prensil",
+                "id": "64ad-5bf1-fee2-f03c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "20fc-ba5d-a4c0-2ca4",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "a127-83d2-3629-8c6f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Garras",
+                "id": "3013-3c16-bcf6-d526",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6563-3942-cb55-70d7",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6612-36d2-b767-da3c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 2}]
+              },
+              {
+                "name": "Garras envenenadas",
+                "id": "4f8d-ebfb-124a-2169",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8908-4f28-22d6-0cd4",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "a112-0841-92bc-b4c8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}]
+              },
+              {
+                "name": "Miembros extra",
+                "id": "882b-383f-3c03-b605",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "74a6-5144-df0a-8b8d",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "bce4-14a7-170e-e594",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Mimetismo",
+                "id": "1250-3b2d-767a-0a8c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "7406-c307-4b04-8f33",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "63e0-dd57-147e-c3e9",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Pegajoso",
+                "id": "5211-8e0d-5b0b-3747",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f997-bc0e-ed94-76d2",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e21c-ce66-fe76-f816",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}]
+              },
+              {
+                "name": "Piel dura (1)",
+                "id": "00d7-4e2a-a736-ef4d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "67ab-d59f-3ac8-b789",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "80b6-6978-c022-841d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Piernas seguras",
+                "id": "a0d7-5a48-7a0e-5ecd",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "885b-322a-1b2c-e05f",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "52d7-e647-9a1d-40a1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              },
+              {
+                "name": "Proyectil orgánico",
+                "id": "8a34-2c54-145c-fe90",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9ce5-e812-1758-0e99",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "a7c9-bde0-8e40-3085",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Rana",
+                "id": "a542-450d-582c-fed7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6029-0fa4-cab3-ce89",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ec5e-7254-caa6-47ca",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 14}]
+              },
+              {
+                "name": "Resistente",
+                "id": "aae3-f09c-7c84-1839",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "211d-4efe-5d77-0495",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "dcc3-2ffa-e32c-ccc0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Resonancia psíquica",
+                "id": "54a6-6bd0-b573-a239",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "599b-4498-5195-9161",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "400c-ea64-4076-c64f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 20}]
+              },
+              {
+                "name": "Sentidos aguzados",
+                "id": "5f17-1644-6e6d-7433",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "9ca0-b7df-4f25-6c5b",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e71d-2e69-e5dd-88c1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}]
+              },
+              {
+                "name": "Sónar",
+                "id": "535b-5e24-586d-9f99",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c34e-aefe-289c-ad00",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "5f7f-280e-0a69-3a6c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Piel dura (2)",
+                "id": "aaf6-1ba4-1a93-45ca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c2d8-acf5-4753-b4bc",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "0d69-6209-5da2-571b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Piel dura (3)",
+                "id": "61c5-6abe-2563-d30e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "3fe8-f4ee-76c1-3dbd",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "a133-a93b-7b80-337c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 20}]
+              }
+            ]
+          },
+          {
+            "name": "Armas",
+            "id": "6ad2-ed07-c3da-8570",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "a971-7253-1dfa-0b19",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Cuchillos arrojadizos",
+                "id": "f5e9-29bc-9b82-352e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fbb9-71e9-2b8c-6c33",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}],
+                "infoLinks": [{"name": "Herrumbre", "id": "d8ed-e3a7-a2a1-8d47", "hidden": false, "targetId": "a11d-eaca-4efa-8fe5", "type": "rule"}]
+              },
+              {
+                "name": "Filo pequeño",
+                "id": "9104-86dd-12cc-cf68",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}],
+                "infoLinks": [{"name": "Herrumbre", "id": "7b79-b445-573e-0a39", "hidden": false, "targetId": "a11d-eaca-4efa-8fe5", "type": "rule"}]
+              },
+              {
+                "name": "Filo medio",
+                "id": "0012-9559-73b2-e8c0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0424-8c3f-6ad0-8237",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}],
+                "infoLinks": [{"name": "Herrumbre", "id": "ec8a-f0f8-b685-c4b2", "hidden": false, "targetId": "a11d-eaca-4efa-8fe5", "type": "rule"}]
+              },
+              {
+                "name": "Maza",
+                "id": "f30d-5b32-c60a-ff58",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Maza ligera",
+                "id": "7966-714b-369a-f277",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bestia del pozo",
+        "id": "e050-5d4d-c582-6422",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d5cd-301f-afe3-e7d1", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 30}],
+        "entryLinks": [
+          {
+            "name": "Cachas",
+            "id": "5efd-9696-a9c0-5e41",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "df79-b048-3226-d7ac",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "fb3b-3f19-19dc-9dc9",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "4c7b-954e-1b75-8e46",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "bfb2-e684-2583-7ace",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "name": "Piel dura (3)",
+            "id": "691f-12fb-2f8f-3cc0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "3fe8-f4ee-76c1-3dbd",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "6282-1192-8cf2-a843",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "6c25-58e9-7fa6-add7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "28fb-3f37-1ad6-e824",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "name": "Resistente",
+            "id": "db5c-fed3-ad47-9fcc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "211d-4efe-5d77-0495",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "3589-e9ba-8d81-dded",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9d38-2f01-ace6-0491",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "b8a3-8b8b-9e21-1525",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 3
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Bersérker", "id": "5e19-bf67-ff8a-3f61", "hidden": false, "targetId": "c9a7-203e-9070-1a69", "type": "rule"},
+          {"name": "Monguer", "id": "3f5e-b231-d88e-fed7", "hidden": false, "targetId": "d8a8-7586-0a64-2537", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Bestia del pozo",
+            "id": "7871-4658-85a5-9f4b",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "5", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "2", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "2", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "6", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "6", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "1", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Mutaciones",
+            "id": "f8e7-3b32-1f5e-3b29",
+            "description": "Ya cuenta con las mutaciones Cachas y Resistente (incluidas en su perfil) y Piel dura (3). Puede elegir una mutación más por su coste en puntos entre Carga brutal, Cola afilada, Espinas, Esputo ácido, Extremidad prensil, Garras envenenadas, Miembros extra o Piernas seguras.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Mutaciones",
+            "id": "0ab4-4a35-f49c-4546",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e480-13ba-efae-252a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Carga brutal",
+                "id": "1ef1-4762-83c0-478b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f9f1-0794-ba77-d0e3",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "7bbb-c264-8dd9-8e46",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}]
+              },
+              {
+                "name": "Cola afilada",
+                "id": "36f3-a562-4f18-a6a8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "04a0-eec8-9443-1aa2",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "edcf-7d92-d1db-7ccc",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Espinas",
+                "id": "6dce-309d-bc49-8dc6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5986-d919-269c-d2ea",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "799c-ecb5-3511-06e7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              },
+              {
+                "name": "Esputo ácido",
+                "id": "5ee5-cf92-04ba-001a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c121-ac08-6de9-0597",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6770-9fcb-2748-e8ad",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Extremidad prensil",
+                "id": "c22d-cbd5-6687-ab04",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "20fc-ba5d-a4c0-2ca4",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ae59-f74b-df4b-a621",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Miembros extra",
+                "id": "83b5-d452-044f-db11",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "74a6-5144-df0a-8b8d",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "1ab5-33b0-8de4-0c5b",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Piernas seguras",
+                "id": "c293-b883-2c46-364d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "885b-322a-1b2c-e05f",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "5cd9-b6d2-33d5-b502",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              }
+            ]
+          },
+          {
+            "name": "Armas",
+            "id": "bf33-09f4-17df-cff8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "06bb-b84e-a13d-a174",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Filo pesado",
+                "id": "b06f-5d72-35e0-53a0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e5e6-095e-5017-1921",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}],
+                "infoLinks": [{"name": "Herrumbre", "id": "55a1-f3f7-55a1-fe57", "hidden": false, "targetId": "a11d-eaca-4efa-8fe5", "type": "rule"}]
+              },
+              {
+                "name": "Maza",
+                "id": "a574-261c-8c43-6e05",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Maza pesada",
+                "id": "ebce-3132-5b13-139d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c1b8-e68a-3435-6b67",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Perromorfo",
+        "id": "bcf6-6502-5adf-e129",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "8004-6b3f-1214-348c", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 20}],
+        "entryLinks": [
+          {
+            "name": "Garras y dientes",
+            "id": "69fd-74bf-5613-b04c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "60c8-413b-fbde-6088",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "bffe-8bcf-d7d2-cbc5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "f8d3-1039-c396-f302",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Bestia", "id": "964a-2439-d808-cdbd", "hidden": false, "targetId": "62df-a648-a2b4-daef", "type": "rule"},
+          {"name": "Raudo", "id": "3a8a-5897-8e13-da10", "hidden": false, "targetId": "f4a1-7d89-1648-d18a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Perromorfo",
+            "id": "6314-d079-e38c-030f",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "-", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "7", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "-", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gato Amargado",
+        "id": "ed70-e780-256b-a6b7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c3fa-867c-4095-e43b", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "constraints": [
+          {
+            "id": "65cf-386f-b050-cc61",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}],
+        "profiles": [
+          {
+            "name": "Gato Amargado",
+            "id": "58d1-7ae9-ac9b-0ab7",
+            "hidden": false,
+            "typeId": "d233-c9f9-0a53-3040",
+            "typeName": "Equipo especial",
+            "characteristics": [
+              {
+                "name": "Reglas",
+                "$text": "Una vez por partida puedes repetir una de tus tiradas de d10 u obligar al rival a repetir una de las suyas. Para ello tendrás que disponer de la miniatura exclusiva de una campaña de Kickstarter",
+                "typeId": "f042-739d-9839-c439"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
