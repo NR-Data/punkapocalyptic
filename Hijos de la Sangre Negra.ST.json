@@ -1,0 +1,1810 @@
+{
+  "catalogue": {
+    "name": "Hijos de la Sangre Negra",
+    "id": "0b4d-07e4-2e55-ecf7",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "fab7-8d9f-25c5-73bc",
+    "gameSystemRevision": 32,
+    "library": false,
+    "revision": 19,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Irina (beta)",
+        "id": "a822-270b-54ba-1cdb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d9fd-c7e0-6beb-0596",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3538-22dc-f73b-c46d", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Capitán Hammerica",
+        "id": "b675-2b3d-6123-c7ee",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bd3e-2900-c778-8569",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "20be-39a0-2272-a444", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Viejo Sajarratas",
+        "id": "b869-5f9c-7df5-73bf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dc04-86d5-a9a1-2115",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "012c-63d0-5bd0-d9bb", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Crazy Mel",
+        "id": "41c8-61f3-ce2c-c097",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0a14-7ef7-d9b3-4f7e",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "91f9-f651-03eb-8d13", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Imperatrix Rabiosa",
+        "id": "3361-6135-6343-96f9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5489-a5be-4e7b-0a5a",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1e0f-79d9-1201-0041", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Lizzy Deville",
+        "id": "b73d-4603-4d15-8235",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bb1b-9915-08d9-463c",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "49cd-14c6-8220-95c6", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Magnus",
+        "id": "9f23-aa10-ab6b-251f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f7d2-1bd6-01c0-adf8",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "faeb-86ec-96c0-aa68", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Ochodedos",
+        "id": "20ec-4b40-dd88-a990",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f5f7-4a7b-a541-cf36",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "308e-9441-4094-b23f", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Mongodrilo Dundee",
+        "id": "d4dc-56eb-40d2-fe2a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b364-8b90-b999-0049",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "3524-43c7-29b4-fa48", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Ceniza",
+        "id": "8be9-4540-8142-22ab",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "ca52-6d3f-0493-80b9", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 12}],
+        "profiles": [
+          {
+            "name": "Ceniza",
+            "id": "220c-dc6e-0caa-db22",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "3", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipo",
+            "id": "7472-46f4-c17d-8051",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "58ae-6140-3c4a-8030",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "c533-f5ff-4078-d36a",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Bayoneta",
+                "id": "0a27-3e8a-3676-400d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c066-ad19-7bd7-1491",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "94ff-9510-860b-2741",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Ropa resistente",
+                "id": "f2bb-dce3-11a7-ff9f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "86ad-a9ee-d23d-f726",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "1197-9868-4959-0f22",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Cuero endurecido",
+                "id": "511b-f7b6-7e02-7447",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eeea-45d8-03cc-15ca",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "fcbc-d511-b744-c3fd",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              }
+            ]
+          },
+          {
+            "name": "Armas",
+            "id": "55c4-2d96-6ae9-1e16",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "5d27-7ff8-dba0-09c6",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "2e71-d23a-87e9-b660",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Filo pequeño",
+                "id": "50bb-e60f-2e4b-13ce",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Maza ligera",
+                "id": "35c4-7e6d-7617-e456",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Maza",
+                "id": "c9a5-c1eb-1a31-4e57",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Pistola",
+                "id": "5932-8dd1-6994-d90f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eb59-93d0-ab75-4c88",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "entryLinks": [
+                  {
+                    "name": "Bayoneta",
+                    "id": "126f-1882-9fc3-a283",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c066-ad19-7bd7-1491",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "98ae-59c6-f035-e7a5",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Quemado",
+        "id": "4b63-2acb-a8e1-8248",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d1d7-741b-5b59-4049", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}],
+        "infoLinks": [{"name": "Monguer", "id": "4a6e-cc4f-68f5-cccb", "hidden": false, "targetId": "d8a8-7586-0a64-2537", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Quemado",
+            "id": "a986-b39a-18bf-047d",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "2", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "2", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "2", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Mártir",
+            "id": "bd0f-6521-da1a-ca5c",
+            "description": "Siempre que estén a 5 cm o menos de una miniatura aliada, un Quemado puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Fuerza contra Dureza. Será el Quemado quien usé su Dureza para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.",
+            "hidden": false
+          },
+          {
+            "name": "¡Por la Sangre Negra!",
+            "id": "8ae8-5934-4db1-0923",
+            "description": "Por +15 puntos un Quemado puede equiparse con un bidón gigante de gasofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá fuego inmediatamente, resultando abatido al inmolarse y causando un impacto de Fuerza 5 y Penetración 5. Si hubiera quedado en contacto con varias figuras, o un combate múltiple, todas las miniaturas implicadas sufrirán ese impacto.",
+            "hidden": false
+          },
+          {
+            "name": "Bajo la mirada llameante: Quemado",
+            "id": "9bb2-17cd-2dfb-ec1c",
+            "description": "Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Todoterreno.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipo",
+            "id": "b70e-affa-f7f8-db48",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "add5-2a10-9c5f-64b2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "a5f1-3e22-76a6-abcf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Bayoneta",
+                "id": "36ff-c982-89f9-377a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c066-ad19-7bd7-1491",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "81e2-ec85-590d-5dfe",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Bidón gigante de gasofa",
+                "id": "6e60-ca75-e34b-084a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}]
+              }
+            ]
+          },
+          {
+            "name": "Armas",
+            "id": "0c02-e4dd-c53e-81f8",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "377f-1c81-06e0-233b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Filo pequeño",
+                "id": "9e97-30f3-c6a9-0489",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Maza ligera",
+                "id": "baa5-fc24-a85d-cf37",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Maza",
+                "id": "e613-570a-64ed-6948",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ascua",
+        "id": "d4e2-27fa-2227-e8f8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a48e-dd19-f55f-7433", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 50}],
+        "entryLinks": [
+          {
+            "name": "Bomba Incendiaria",
+            "id": "788a-60c4-4c19-ddb1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e215-f416-9c82-4310",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "495a-0c7c-018a-4ed5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 5
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Ascua",
+            "id": "3c7c-4a4a-fb91-f77b",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "5", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "4", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Bajo la mirada llameante: Ascua",
+            "id": "99f2-08c1-9920-5027",
+            "description": "Siempre que un Ascua esté en la línea de visión de un Guardián de la Llama, la miniatura contará con un bonificador de +1 a la Dureza.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipo",
+            "id": "4a38-4e8b-d4b2-f1f7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "71a1-2d06-044b-10d8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "dcfa-c8fd-7204-2e56",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Bayoneta",
+                "id": "ff3f-d0cc-0172-7fe7",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c066-ad19-7bd7-1491",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "995c-6e32-ee67-eff8",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Cuero endurecido",
+                "id": "590c-bb05-d678-2b3a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eeea-45d8-03cc-15ca",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6269-51dc-47f3-30b0",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "0055-4e57-ba71-d385",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Armadura metálica",
+                "id": "581c-6c5c-8cc9-a1d8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "89eb-394a-209d-a7e8",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "2ab0-bf95-c687-3bd0",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Chaleco antibalas",
+                "id": "9a85-54f1-5e92-1dfe",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2236-226d-82a2-65ff",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "05f9-8caa-100a-f8bd",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Escudo",
+                "id": "23e2-3d04-38bc-113e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "97f2-983f-e545-b948",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e61a-86c6-af2c-b9ba",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              }
+            ]
+          },
+          {
+            "name": "Armas",
+            "id": "fe31-1b97-a8e9-e85c",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "f0e2-1ed6-da0e-80fd",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              },
+              {
+                "id": "49b4-fb29-0be7-0ac7",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Maza",
+                "id": "9d11-abb8-68fe-c96b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Filo pequeño",
+                "id": "e5e3-abe5-0541-0d66",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Pistola",
+                "id": "248b-47db-cd41-1e44",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eb59-93d0-ab75-4c88",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "entryLinks": [
+                  {
+                    "name": "Bayoneta",
+                    "id": "90f5-4ade-ad2f-f1f0",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c066-ad19-7bd7-1491",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "08f4-d3c0-d380-f515",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+                  }
+                ]
+              },
+              {
+                "name": "Filo medio",
+                "id": "b7b8-4418-5004-fa35",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0424-8c3f-6ad0-8237",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Escopeta",
+                "id": "833a-1635-c46d-dbe9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e428-2fd2-6b4d-1344",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}],
+                "entryLinks": [
+                  {
+                    "name": "Bayoneta",
+                    "id": "350c-1481-e47a-1289",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c066-ad19-7bd7-1491",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "df9e-5f83-08ee-98b2",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+                  }
+                ]
+              },
+              {
+                "name": "Motosierra",
+                "id": "260e-6ebc-be6e-bd5d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "5654-b4ca-b0f4-09a8",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 12}]
+              },
+              {
+                "name": "Lanzallamas",
+                "id": "858f-16ac-cd71-2dda",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "a0c2-5530-e994-f264",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 20}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chispa",
+        "id": "df17-e6b7-de32-94b9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "71ab-ed6c-b5ea-e786", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 60}],
+        "profiles": [
+          {
+            "name": "Chispa",
+            "id": "5d2c-6239-3a9b-02be",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "6", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "4", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "4", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Bajo la mirada llameante: Chispa",
+            "id": "9b75-2d82-c3e7-556a",
+            "description": "Siempre que un Chispa esté en la línea de visión de un Guardián de la Llama, la miniatura podrá realizar una vez por partida una acción extra de Darle caña. Debe decirse claramente que se ha utilizado la acción que proporciona Bajo la mirada llameante.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipo",
+            "id": "07c0-375c-93db-9067",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "f9e4-bef2-a779-8eaa",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "9b5c-617e-1f29-1006",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Bayoneta",
+                "id": "3a22-8e06-3f76-be5d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c066-ad19-7bd7-1491",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6be1-2ad6-37a1-4344",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Cuero endurecido",
+                "id": "9b05-feb9-5930-e194",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eeea-45d8-03cc-15ca",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "5e37-ddc8-ec15-fa15",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "5fb8-d217-df01-cfad",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Armadura metálica",
+                "id": "eaa3-2b33-4d8d-e49f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "89eb-394a-209d-a7e8",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "421f-f62c-0d32-8b06",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Chaleco antibalas",
+                "id": "4acb-2e93-1919-6428",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2236-226d-82a2-65ff",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "a506-4687-a19b-45c6",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Motocicleta",
+                "id": "2fc1-7869-23c7-eef3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "ca19-705c-88e4-1c04",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "3fb8-45a3-2466-ea24",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "8d22-1509-3d3b-d38d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Armas",
+            "id": "6d1f-9f58-093b-2df7",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "8821-2a95-5d9e-2133",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1823-f48a-7053-2763",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Filo pequeño",
+                "id": "f94d-c032-80c8-ba49",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Filo medio",
+                "id": "792e-33d7-6a84-dc56",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0424-8c3f-6ad0-8237",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Maza",
+                "id": "0b3b-a4ff-734d-afe4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Maza ligera",
+                "id": "eadb-4a2c-e365-3725",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Pistola",
+                "id": "77dd-78f2-dd14-3da6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eb59-93d0-ab75-4c88",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "entryLinks": [
+                  {
+                    "name": "Bayoneta",
+                    "id": "948e-c8a1-0186-2a83",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "c066-ad19-7bd7-1491",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {
+                        "id": "1659-c3dd-1e7c-3c53",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "parent",
+                        "shared": true,
+                        "type": "max",
+                        "value": 1
+                      }
+                    ],
+                    "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guardián de la llama",
+        "id": "8362-5c4e-b756-74e0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "bd1e-8da6-bdf7-551f", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "constraints": [
+          {
+            "id": "568a-cb47-fa25-4221",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 20}],
+        "profiles": [
+          {
+            "name": "Guardián de la llama",
+            "id": "449f-f372-bb5f-9a4f",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "2", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "2", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "2", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "6", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Bajo la mirada llameante: Guardián de la llama",
+            "id": "e777-8624-38bb-91c9",
+            "description": "El  Guardián  es  capaz  de  motivar  a  sus  cultistas  con  su  mera  mirada.  Algunas  opciones  de  tropa  tienen  una  ventaja  cuando  se  encuentran  bajo  la  línea  de  visión  del  Guardián.  Éstas  se  explican en sus respectivas entradas.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Equipo",
+            "id": "350d-536b-bd91-0b47",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "7087-693e-bb44-5f67",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "853e-18df-f309-ab2d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Bayoneta",
+                "id": "7b42-c44f-52b8-7966",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c066-ad19-7bd7-1491",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "c5b8-157f-8d83-d213",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Cuero endurecido",
+                "id": "19f8-e068-3453-5461",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eeea-45d8-03cc-15ca",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "bf67-8d3c-b794-c2fa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "87f1-8d80-714a-722c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Armadura metálica",
+                "id": "9323-3ce8-14d1-4388",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "89eb-394a-209d-a7e8",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "1139-ae6d-6ceb-abe5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Chaleco antibalas",
+                "id": "c06b-f321-934d-6436",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2236-226d-82a2-65ff",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "e93a-81bb-94ad-2cb3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Chapa metálica",
+                "id": "c21c-5805-2620-5cee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b38b-81a2-535b-73b1",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ed0c-1d98-9799-1b6f",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}]
+              }
+            ]
+          },
+          {
+            "name": "Armas",
+            "id": "3881-49b6-5826-b49f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "Maza (Vara o bastón de mando)",
+                "id": "9183-57bf-8dfe-0cb5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "858a-c835-86c6-dc92",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "71d9-e9d3-bfca-66ad",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+                "infoLinks": [{"name": "Maza", "id": "4791-5987-cfed-0060", "hidden": false, "targetId": "a9c4-5156-8a6f-20d7", "type": "profile"}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cunnilingus Igni",
+        "id": "b41a-10bd-527a-201e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "da9d-8cfa-ea45-1e91", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 90}],
+        "profiles": [
+          {
+            "name": "Cunnilingus Igni",
+            "id": "9231-34b5-f31e-5a0f",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "3", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "5", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "5(4)", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "5(7)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "5", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "5", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Por el líder",
+            "id": "78b1-4113-5794-b69f",
+            "description": "Los Quemados son aún más fanáticos en su defensa de Cunnilingus. Podrán usar su regla Mártir estando hasta 10 cm de él, en lugar de los 5 cm habituales.",
+            "hidden": false
+          },
+          {
+            "name": "Sumo Guardián de la Llama",
+            "id": "ebad-888f-48ac-ada1",
+            "description": "Cunnilingus actúa como un Guardián de la Llama, por lo que podrá usar la Regla especial Bajo la mirada llameante sobre sus tropas. Además, su presencia es tan imponente que las miniaturas no tendrán que estar en su Línea de visión, y se beneficiarán de la regla hasta que Cunnilingus sea Abatido. Por otra parte, puesto que sólo puede haber un Guardián de la Llama en la banda, si incluyes a Cunnilingus no podrás incluir a otro.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "e927-3535-345f-e1fb",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "selectionEntries": [
+              {
+                "name": "Lechazo",
+                "id": "eee2-71c5-f1bf-a4c2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "df45-e683-0255-a09d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "1a2f-249f-12cc-6dfd",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+                "entryLinks": [
+                  {
+                    "name": "Balas",
+                    "id": "f6c8-379b-6c32-f0cf",
+                    "collective": false,
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "25da-dbee-5744-9a80",
+                    "type": "selectionEntry"
+                  }
+                ],
+                "infoLinks": [{"name": "Pistola", "id": "992f-9e5d-dea7-3105", "hidden": false, "targetId": "c71d-a64a-b59d-44b9", "type": "profile"}],
+                "rules": [
+                  {
+                    "name": "Lechazo",
+                    "id": "b911-2485-58c5-822a",
+                    "description": "Es  un  pistolón  de  gran  calibre  capaz  de  disparar  munición  incendiaria.  Sus  disparos  se  resuelven de la forma habitual, pero además cada vez que impacten seguirán la regla especial Incendiaria (centrando la plantilla en la miniatura impactada, tanto si ha sido abatida como si no).",
+                    "hidden": false
+                  }
+                ]
+              },
+              {
+                "name": "Chorrazo",
+                "id": "0fcb-0936-c45a-38ca",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "fb03-13c4-cea8-59e9",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "33d0-6a34-b496-d481",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+                "infoLinks": [{"name": "Filo pequeño", "id": "676a-23fa-f7e4-d16c", "hidden": false, "targetId": "aaef-84b9-f340-8987", "type": "profile"}],
+                "profiles": [
+                  {
+                    "name": "Motosierra",
+                    "id": "fa72-c08e-5641-9191",
+                    "hidden": false,
+                    "typeId": "d423-695b-6fc2-31d9",
+                    "typeName": "Armas cuerpo a cuerpo",
+                    "characteristics": [
+                      {"name": "Combate", "$text": "+0", "typeId": "3bcb-590f-e624-084f"},
+                      {"name": "Fuerza", "$text": "+2", "typeId": "959a-27b3-5665-eaae"},
+                      {"name": "Penetración", "$text": "5", "typeId": "af0e-e291-c826-bf01"},
+                      {"name": "Reglas especiales", "typeId": "55ae-0d53-f265-651a"}
+                    ]
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Chorrazo",
+                    "id": "1f95-ce2b-f05e-1ab0",
+                    "description": "Se trata de una sierra mecánica de tamaño reducido acoplada a su antebrazo. Posee Penetración 5, Fuerza +2 y la Regla especial Combustible (5 - 1). Si decide usarla sin utilizar el combustible (o se ha quedado sin él) el arma pasará a considerarse un Filo pequeño.",
+                    "hidden": false
+                  },
+                  {
+                    "name": "Combustible (5-1)",
+                    "id": "0200-e285-d6ef-890b",
+                    "description": "Las armas con esta regla necesitan de cargas de combustible para funcionar. Un arma comienza con5 cargas, pero cada vez que se haga un disparo o ataque, gastará 1 cargas.\nPero llevar ese combustible encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Fuerza contra Dureza el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Fuerza como cargas le queden al arma y Penetración 3.",
+                    "hidden": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "6951-ad74-4975-a7c5",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Chapa metálica",
+                "id": "285b-144a-f4fa-8b16",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "b38b-81a2-535b-73b1",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "7e6f-aa86-ee43-5f68",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "92c0-0e17-0289-3da3",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Momma Nutritora",
+        "id": "6150-14aa-30f4-3ed6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e143-5503-c849-657b", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 45}],
+        "entryLinks": [
+          {
+            "name": "Maza",
+            "id": "b053-f1f7-cd46-906d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4c50-148e-9eaa-0e70",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "3093-5fa7-0d9d-c303",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "cb63-70fa-615e-6cd0",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Ropa resistente",
+            "id": "6a01-5cc7-d5d5-8cbc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86ad-a9ee-d23d-f726",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "cc02-4606-41a1-901f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "3202-38cb-8311-0ebd",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Momma Nutritora",
+            "id": "afd6-1a4d-8c0e-7bff",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4(6)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "4", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "7", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Nutritora",
+            "id": "1163-7b8f-4baa-222a",
+            "description": "Si está en contacto con una miniatura amiga con un arma de combustible o una motocicleta, Momma puede gastar una Acción en rellenar todos los puntos de combustible en el caso de las armas, o los Darle caña en el caso de las motocicletas.",
+            "hidden": false
+          },
+          {
+            "name": "Bomba andante",
+            "id": "4966-26bc-66df-ad0c",
+            "description": "Momma  va  cargando  con  una  enorme  cantidad  de  combustible.  Si  después  de  ser impactada, en la tirada enfrentada de Fuerza contra Dureza el atacante saca una tirada de 1, Momma explotará. No sólo resultará abatida automáticamente, si no que deberá colocarse la plantilla de Bomba incendiaria sobre ella y toda miniatura que quede cubierta aunque sea parcialmente sufrirá un impacto de Pen 6 y Fue 6. El lugar quedará ardiendo, por lo que la plantilla permanecerá en el lugar de manera permanente, siguiendo la regla especial Incendiaria.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Gato Amargado",
+        "id": "43b4-8566-b237-622a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2227-3906-1bd0-15c8", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "constraints": [
+          {
+            "id": "744a-9e54-e9ac-ba39",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}],
+        "profiles": [
+          {
+            "name": "Gato Amargado",
+            "id": "cab4-f38b-1352-1f85",
+            "hidden": false,
+            "typeId": "d233-c9f9-0a53-3040",
+            "typeName": "Equipo especial",
+            "characteristics": [
+              {
+                "name": "Reglas",
+                "$text": "Una vez por partida puedes repetir una de tus tiradas de d10 u obligar al rival a repetir una de las suyas. Para ello tendrás que disponer de la miniatura exclusiva de una campaña de Kickstarter",
+                "typeId": "f042-739d-9839-c439"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
