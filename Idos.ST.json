@@ -1,0 +1,1154 @@
+{
+  "catalogue": {
+    "name": "Idos",
+    "id": "bd07-6ba7-3edf-4ca0",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "fab7-8d9f-25c5-73bc",
+    "gameSystemRevision": 33,
+    "library": false,
+    "revision": 15,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Capitán Hammerica",
+        "id": "6b13-0ba6-4d2f-6877",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bd3e-2900-c778-8569",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Viejo Sajarratas",
+        "id": "6633-fd44-131e-58bb",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dc04-86d5-a9a1-2115",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Crazy Mel",
+        "id": "8083-d6ee-8e88-b1cd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0a14-7ef7-d9b3-4f7e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Imperatrix Rabiosa",
+        "id": "3ae5-b88e-76b8-845a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5489-a5be-4e7b-0a5a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Lizzy Deville",
+        "id": "2dba-4602-35f5-89d7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bb1b-9915-08d9-463c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Magnus",
+        "id": "a8c1-d134-b796-4939",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f7d2-1bd6-01c0-adf8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ochodedos",
+        "id": "0dfe-e88c-f759-cd3a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f5f7-4a7b-a541-cf36",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Irina (beta)",
+        "id": "39ee-f852-b386-fcc9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d9fd-c7e0-6beb-0596",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "aa86-c693-2c3b-b1fa", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      },
+      {
+        "name": "Mongodrilo Dundee",
+        "id": "5fc3-3026-9301-5b55",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "b364-8b90-b999-0049",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "99c1-4779-3278-774a", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Desgarrador",
+        "id": "1650-c7a4-f3cf-6e3b",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fe64-91b0-368d-3d9d", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 40}],
+        "profiles": [
+          {
+            "name": "Desgarrador",
+            "id": "3685-bfef-5f75-925a",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "5", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "-", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "4", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "1", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "$text": "Furia psicópata, Mal viaje.", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Furia psicótica",
+            "id": "8552-07dd-e937-65cf",
+            "description": "Los  desgarradores  sólo  piensan  en  ir  a  rajar  a  sus  enemigos.  Avanzarán  hacia  el  enemigo al que lleguen más rápidamente (independientemente de la Línea de visión). Normalmente esto es el más cercano, pero habrá casos donde puede tener un enemigo cerca encima de un edificio, o tras terreno Pila chungo, y sin embargo puede cubrir más terreno avanzando hacia otro enemigo.",
+            "hidden": false
+          },
+          {
+            "name": "Mal viaje Desgarrador",
+            "id": "3480-d1ba-74c9-a2b8",
+            "description": "En  caso  de  tener  en  distancia  de  Asalto  a  alguna  miniatura,  el  desgarrador  la  Asaltará  independientemente de que sea amiga o enemiga.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "5cf6-f99c-eef3-dee4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "bf4b-84e5-b41c-ed3e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Filo pequeño",
+                "id": "6063-811e-3e5c-59cb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Filo medio",
+                "id": "c72a-8bc3-255e-d765",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0424-8c3f-6ad0-8237",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Hoz",
+                "id": "98e5-ffea-0936-6e8c",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f7a6-e7c0-7209-757f",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Arma incristada",
+                "id": "a9b6-1139-6a5b-5b89",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6a3d-e4bc-059d-d9df",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "7cae-5965-4688-42a1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "78d1-5a79-57b1-fcb6",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Ropa resistente",
+                "id": "da14-b76f-4a45-724a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "86ad-a9ee-d23d-f726",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Cuero humano",
+                "id": "52f9-38b5-e09b-a90d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8748-3312-3e13-6d1a",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Protección contra contaminación",
+                "id": "2e98-8d34-f345-9774",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cosechador",
+        "id": "9670-2114-7024-fbbf",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c383-c314-f6eb-410f", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"},
+          {"name": "New CategoryLink", "id": "0c53-9f7c-1422-fc21", "hidden": false, "primary": false, "targetId": "c87a-d4ad-78b4-37a2"}
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 40}],
+        "profiles": [
+          {
+            "name": "Cosechador",
+            "id": "a154-9762-c877-ff94",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "3", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "5", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "6", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Especialistas",
+            "id": "e3d8-5a8c-5e32-cebd",
+            "description": "Los cosechadores no son demasiado comunes. Sólo podrá haber un cosechador por cada fracción de 200 puntos de la banda.",
+            "hidden": false
+          },
+          {
+            "name": "Mal viaje Cosechador",
+            "id": "2447-de86-6068-1c80",
+            "description": "El Cosechador tiene la mente demasiado dispersa y no podrá cosechar.",
+            "hidden": false
+          },
+          {
+            "name": "Cosecha",
+            "id": "2620-ff40-0a8c-87fa",
+            "description": "un cosechador puede gastar 1 Acción en cosechar a un enemigo Abatido (ningún Abatido puede ser cosechado más de una vez), extrayendo el líquido de su hipotálamo. La cantidad de Ambrosía cosechada dependerá del grado de terror de la víctima. Deberás tirar en la siguiente tabla para comprobar cuantas dosis de Ambrosía ha cosechado para la banda, que podrá utilizar de manera habitual:\n\n1: Ninguna\n2-5: 1\n6-9: 2\n10: 3",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "e4de-6201-b8fb-6d15",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "162b-896c-020f-a131",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Maza ligera",
+                "id": "5158-8a21-8310-99ef",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Filo pequeño",
+                "id": "4f14-0b98-11cb-ea59",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Maza",
+                "id": "c14e-72e5-8fcc-c898",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Hoz",
+                "id": "1240-3941-bb1e-c4c6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f7a6-e7c0-7209-757f",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Arma incristada",
+                "id": "ec77-3e5a-a7f3-9782",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "6a3d-e4bc-059d-d9df",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "cab1-d92a-b8c3-263b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Ropa resistente",
+                "id": "f4da-af08-d9cd-5c73",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "86ad-a9ee-d23d-f726",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "bd62-e9f5-61e9-51c9",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "4e95-06c0-a174-91ea",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Cuero humano",
+                "id": "f264-df71-7f29-459b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8748-3312-3e13-6d1a",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Protección contra contaminación",
+                "id": "f62f-1033-93e3-65db",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Glotón",
+        "id": "fcca-37fc-c2af-b1a0",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "bb5e-1ddf-d493-af70", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 45}],
+        "entryLinks": [
+          {
+            "name": "Arma incrustada",
+            "id": "4fe0-d549-ff37-2247",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "6a3d-e4bc-059d-d9df",
+            "type": "selectionEntry",
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+          },
+          {
+            "name": "Protección contra contaminación",
+            "id": "b2ba-7d7c-ac35-34df",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1c4e-6bf8-7327-3b03",
+            "type": "selectionEntry",
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Glotón",
+            "id": "c291-d76f-3c1d-fcf7",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "2", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "5", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Devoradores",
+            "id": "2bd2-a30b-cbad-c713",
+            "description": "Los glotones pueden devorar partes de los los cuerpos de los abatidos para conseguir volverse  más  poderosos.  Un  glotón  puede  gastar  una  Acción  en  devorar  a  una  miniatura  abatida  (amiga  o  enemiga)  en  contacto  para  conseguir  un  bonificador  de  +1  al  Combate,  Fuerza  y  Dureza.  Máximo  una  Acción de devorar por miniatura abatida, tras lo que está quedará destrozada (no podrá ser saqueada, cosechada, curada por un Sanitario, etc...).",
+            "hidden": false
+          },
+          {
+            "name": "Mal viaje Glotón",
+            "id": "c4ff-2455-9e2a-6d78",
+            "description": "El glotón se deja llevar por su glotonería y avanzará hacia la miniatura abatida, y no devorada ya, más cercana (en caso de haber alguna), devorándola si llega a ella. Si estaba ya en contacto con una miniatura devorada, no se moverá de ella degustando hasta el último pedazo.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "f0d3-7710-18da-f557",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "59c3-c8da-e894-d886",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "52ad-114f-846f-ef86",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Maza pesada",
+                "id": "a593-5635-4413-b81e",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c1b8-e68a-3435-6b67",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              },
+              {
+                "name": "Filo pesado",
+                "id": "696a-c44b-9a0b-9dd6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e5e6-095e-5017-1921",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "8066-f834-0df1-607b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Ropa resistente",
+                "id": "35df-6f66-3734-8334",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "86ad-a9ee-d23d-f726",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "9746-18e4-262c-16a6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "24bb-66f5-8267-37c7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Cuero humano",
+                "id": "5b0a-9c26-4489-3283",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8748-3312-3e13-6d1a",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aberración",
+        "id": "1e8e-f45a-0f2e-8387",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "52f0-c24e-6d47-60c6", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 35}],
+        "infoLinks": [
+          {"name": "Monguer", "id": "4cf7-1e2b-3993-0992", "hidden": false, "targetId": "d8a8-7586-0a64-2537", "type": "rule"},
+          {"name": "Raudo", "id": "6c33-1667-3457-856a", "hidden": false, "targetId": "f4a1-7d89-1648-d18a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Aberración",
+            "id": "94b4-911c-79a9-b08a",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "-", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "5", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "-", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Locura",
+            "id": "7f92-0d5a-0090-52d6",
+            "description": "Mirar a la cara de las aberraciones es mirar a una locura más allá de la humanidad, que difícilmente no te puede afectar. Las miniaturas que las Asalten perderán todos sus bonificadores por el Asalto.",
+            "hidden": false
+          },
+          {
+            "name": "Sobredosis",
+            "id": "9e35-8748-6d32-7db5",
+            "description": "Las aberraciones tienen más problemas para tolerar la Ambrosía y parten con un -2 en la tirada para ver si la droga hace efecto.",
+            "hidden": false
+          },
+          {
+            "name": "Mal viaje Aberración",
+            "id": "2405-c3b0-4f35-308b",
+            "description": "La aberración  moverá  de  manera  aleatoria  siguiendo  la  dirección  de  1d10.  Si  hay  algún  obstáculo se parará.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "fd68-cf04-a32c-701e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Garras y dientes",
+                "id": "0853-f592-de19-9f8f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "60c8-413b-fbde-6088",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "190b-7803-0fe5-aed1",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "b42f-1225-be40-0627",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "53c8-4356-7941-6021",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Protección contra contaminación",
+                "id": "7256-7a02-c6c8-f3ab",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Despojo",
+        "id": "bdf7-dfb0-fbe2-7a67",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "c4c4-9058-0b39-7976", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}],
+        "profiles": [
+          {
+            "name": "Despojo",
+            "id": "95ff-4556-1991-3c90",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "3", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Escoria",
+            "id": "a235-c1d4-f6e2-e5f1",
+            "description": "Los despojos no pueden utilizar dosis de Ambrosía ni utilizar armas incrustadas. Además, no puede haber mayor número de despojos que la suma del resto de integrantes de la banda.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "7911-8c25-3cb2-7fe0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "797c-5d37-ca8b-2556",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Maza ligera",
+                "id": "2a89-2f4e-cb8f-d355",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Maza",
+                "id": "77e1-1dd7-d663-ddf2",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Filo pequeño",
+                "id": "af6c-3328-6070-746f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Hoz",
+                "id": "900b-45f4-276e-c5f5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "f7a6-e7c0-7209-757f",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          },
+          {
+            "name": "Equipo",
+            "id": "2906-dd5f-6700-460f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Ropa resistente",
+                "id": "607e-e192-5511-22b8",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "86ad-a9ee-d23d-f726",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Cuero humano",
+                "id": "5492-15f0-a25b-3bc4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "8748-3312-3e13-6d1a",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Protección contra contaminación",
+                "id": "b4e9-3e8c-cebb-5ab0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "1c4e-6bf8-7327-3b03",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Madre",
+        "id": "81cc-bc0e-8570-1bfd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "fea6-228e-c890-1786", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 100}],
+        "entryLinks": [
+          {
+            "name": "Protección contra contaminación",
+            "id": "4152-284f-c293-54ee",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1c4e-6bf8-7327-3b03",
+            "type": "selectionEntry",
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Madre",
+            "id": "8462-3fc5-1e78-7ffc",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "3", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4(2)", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "5", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "6", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          },
+          {
+            "name": "Mascota",
+            "id": "018a-507c-e7b9-ad66",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "-", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "-", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "-", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "4", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "-", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Presencia perturbadora",
+            "id": "445d-eb01-6237-9357",
+            "description": "Es difícil explicar la sensación de ver a Madre. Es como contemplar a una diosa oscura caminando entre nosotros. Cualquier miniatura (excepto aquellas con la regla Bestia o Monguer) que comience una Acción teniendo Línea de visión sobre Madre deberá superar una tirada de Dureza o perderá totalmente esa Acción.",
+            "hidden": false
+          },
+          {
+            "name": "Lucidez",
+            "id": "9f86-1946-64af-a3ce",
+            "description": "Cualquier Ido de su banda que consuma Ambrosía a 20 cm o menos de Madre no deberá tirar en la tabla de efecto, consiguiendo siempre que funcione perfectamente. Sin embargo la propia Madre no podrá utilizar nunca la Ambrosía.",
+            "hidden": false
+          },
+          {
+            "name": "Mascota",
+            "id": "0742-86d8-f5be-8817",
+            "description": "Madre siempre lleva a alguna de sus mascotas a la batalla. Antiguos enemigos a los que ha torturado física y mentalmente hasta convertirlos en perturbadas criaturas sumisas. La Mascota no actua de manera individual, sino que se mueve siempre con Madre. Hasta que la Mascota sea abatida, será esta la que combata y reciba los impactos de disparos, utilizando sus atributos.",
+            "hidden": false
+          },
+          {
+            "name": "Cosechadora",
+            "id": "4cb6-41dd-362b-620e",
+            "description": "Madre puede cosechar al igual que un Cosechador. Hay que tener en cuenta que Madre contará como un Cosechador más para su Regla especial Especialistas.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Garras y dientes (Mascota)",
+            "id": "9cf5-1e25-35ae-c202",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e078-6977-ba3f-3eaa",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "ad97-9e16-f4b3-c3b4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+            "profiles": [
+              {
+                "name": "Garras y dientes (Mascota)",
+                "id": "290e-ead8-6123-e2f2",
+                "hidden": false,
+                "typeId": "d423-695b-6fc2-31d9",
+                "typeName": "Armas cuerpo a cuerpo",
+                "characteristics": [
+                  {"name": "Combate", "$text": "+0", "typeId": "3bcb-590f-e624-084f"},
+                  {"name": "Fuerza", "$text": "+0", "typeId": "959a-27b3-5665-eaae"},
+                  {"name": "Penetración", "$text": "1", "typeId": "af0e-e291-c826-bf01"},
+                  {"name": "Reglas especiales", "typeId": "55ae-0d53-f265-651a"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tío",
+        "id": "82fe-d24f-39a7-d867",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "cf6e-110c-29de-616b", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 70}],
+        "entryLinks": [
+          {
+            "name": "Protección contra contaminación",
+            "id": "25c4-5abb-56d2-95cf",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1c4e-6bf8-7327-3b03",
+            "type": "selectionEntry",
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+          }
+        ],
+        "infoLinks": [{"name": "Monguer", "id": "7c35-eada-28ed-513a", "hidden": false, "targetId": "d8a8-7586-0a64-2537", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Tío",
+            "id": "9d45-f26a-f5c4-cad0",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "5", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "-", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "5(9)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "6", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "2", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Torbellino",
+            "id": "4209-e698-372c-15bb",
+            "description": "Tío tiene dos enormes mazas incrustadas en lugar de sus brazos, sujetas por unas cadenas (su bonificador por incrustada se contrarresta al de usar maza pesada). A la hora de atacar, puede hacerlo normalmente, o gastar un Turno de Acción completo (usar sus 2 Acciones) en hacer un ataque Torbellino. Puede realizarlo incluso estando trabado en Cuerpo a Cuerpo. Si hace esto, toda miniatura en un radio de 5 cm de distancia (amiga o enemiga) deberá superar una tirada de Agilidad o resultará impactada automáticamente (como si lo hubiera sido en Combate).",
+            "hidden": false
+          },
+          {
+            "name": "Mal viaje Tío",
+            "id": "5a53-6668-a61f-8eba",
+            "description": "Tío pierde el impulso para utilizar Torbellino y no podrá utilizarlo durante este Turno de Acción.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Torbellino (maza pesada)",
+            "id": "d62d-e219-5270-c13d",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "f0ac-4d0e-1774-6cab",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "9f91-77eb-2e88-f238",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+            "profiles": [
+              {
+                "name": "Torbellino (maza pesada)",
+                "id": "cdc1-c34e-1189-3d36",
+                "hidden": false,
+                "typeId": "d423-695b-6fc2-31d9",
+                "typeName": "Armas cuerpo a cuerpo",
+                "characteristics": [
+                  {"name": "Combate", "$text": "-1", "typeId": "3bcb-590f-e624-084f"},
+                  {"name": "Fuerza", "$text": "+4", "typeId": "959a-27b3-5665-eaae"},
+                  {"name": "Penetración", "$text": "2", "typeId": "af0e-e291-c826-bf01"},
+                  {"name": "Reglas especiales", "typeId": "55ae-0d53-f265-651a"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gato Amargado",
+        "id": "d90b-ba63-c522-6aef",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "9275-13d0-9d43-c388", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "constraints": [
+          {
+            "id": "f16d-4f31-24b8-4d1a",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}],
+        "profiles": [
+          {
+            "name": "Gato Amargado",
+            "id": "f713-b557-ef53-55f5",
+            "hidden": false,
+            "typeId": "d233-c9f9-0a53-3040",
+            "typeName": "Equipo especial",
+            "characteristics": [
+              {
+                "name": "Reglas",
+                "$text": "Una vez por partida puedes repetir una de tus tiradas de d10 u obligar al rival a repetir una de las suyas. Para ello tendrás que disponer de la miniatura exclusiva de una campaña de Kickstarter",
+                "typeId": "f042-739d-9839-c439"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
