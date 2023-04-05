@@ -1,0 +1,2338 @@
+{
+  "catalogue": {
+    "name": "La Troupe (Beta).ST",
+    "id": "bea8-575c-5b79-7a61",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "fab7-8d9f-25c5-73bc",
+    "gameSystemRevision": 39,
+    "library": false,
+    "revision": 4,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Imperatrix Rabiosa",
+        "id": "4204-758b-080e-4194",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5489-a5be-4e7b-0a5a",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Irina (beta)",
+        "id": "eeab-2d2d-112b-34c3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "d9fd-c7e0-6beb-0596",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Capitán Hammerica",
+        "id": "c22a-f4f6-068f-a8c4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bd3e-2900-c778-8569",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Crazy Mel",
+        "id": "947d-369b-04c0-125f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "0a14-7ef7-d9b3-4f7e",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Viejo Sajarratas",
+        "id": "0d22-3a07-6347-ed68",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dc04-86d5-a9a1-2115",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Lizzy Deville",
+        "id": "e5f6-6f2d-8bac-bfc9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "bb1b-9915-08d9-463c",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Magnus",
+        "id": "4b88-69f3-1817-4aaa",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f7d2-1bd6-01c0-adf8",
+        "type": "selectionEntry"
+      },
+      {
+        "name": "Ochodedos",
+        "id": "9773-2aca-8a44-dda4",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f5f7-4a7b-a541-cf36",
+        "type": "selectionEntry"
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Jefe de pista",
+        "id": "e7c8-a486-fea1-07da",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "719e-822a-f904-71ec", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "constraints": [
+          {
+            "id": "5893-2677-950d-2e2d",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 35}],
+        "entryLinks": [
+          {
+            "name": "Ropa resistente",
+            "id": "9d9c-4d7a-a942-1529",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86ad-a9ee-d23d-f726",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "7a93-e6ea-2196-4422",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Jefe de pista",
+            "id": "d235-8a00-2fb8-0a7d",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "6", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "El mayor espectáculo del mundo",
+            "id": "811f-63f8-0a29-6bc2",
+            "description": "El Jefe de pista es un maestro de ceremonias experto capaz de encandilar a niños y mayores por igual, dejándolos boquiabiertos mientras su trouppe hace de las suyas. El Jefe de pista puede coger su altavoz y gastar 1 Acción para lograr uno de los siguientes efectos, no pudiendo repetir el mismo dos veces durante la partida.\n\n• Reclamar la atención: todas las miniaturas enemigas que no están trabadas en Combate deberán girarse inmediatamente para mirar de frente al Jefe de pista.\n• Presentar a los Pachachos: durante este Turno de juego, la Regla especial Risa difícil de los Pachachos restará o sumará 4 en lugar de 2.\n• Presentar a los Acróbatas: la próxima vez que utilices la Regla especial Catapulta infernal de un Acróbata, podrá sumar 10 cm a un súper salto (por lo que podría ser de hasta 40 cm).\n• Presentar a los Forzudos: la próxima vez que utilices la Regla especial Lucimiento de un Forzudo, el Bonificador de +2 se aplicará también al Combate.\n• Presentar a los Domadores: en el siguiente Turno de juego las bestias podrán alejarse hasta 30 cm de los Domadores en lugar de los 15 cm habituales.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "277b-4e68-39f4-017f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e853-eccb-744d-1295",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Filo pequeño",
+                "id": "2230-5508-2535-f644",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "296a-efc7-638e-97aa",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Filo medio",
+                "id": "ccf8-fda5-dc3f-004b",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0424-8c3f-6ad0-8237",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "f47a-efdb-e3a3-f1bf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              },
+              {
+                "name": "Pistola",
+                "id": "9099-04df-84bb-f108",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eb59-93d0-ab75-4c88",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "2f0a-1308-30fe-98cf",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Forzudo",
+        "id": "6911-db29-5802-cf7f",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6749-f393-d754-e14d", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 40}],
+        "entryLinks": [
+          {
+            "name": "Ropa resistente",
+            "id": "2542-3e08-b8e9-e716",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86ad-a9ee-d23d-f726",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "63f9-fe35-06fd-4b3d",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Forzudo",
+            "id": "fdeb-5325-bd3c-b0d4",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "2", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "6", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "5", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "2", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Bestia parda",
+            "id": "8d80-333d-0ad0-0dbb",
+            "description": "El forzudo trabaja levantando pesos, así que ignora el penalizador de -1 a la Agilidad de la Regla especial Armatoste y la imposibilidad de llevar más armas de la Regla especial Mamotreto.",
+            "hidden": false
+          },
+          {
+            "name": "Lucimiento",
+            "id": "8838-3e00-04ce-9a7a",
+            "description": "El forzudo puede llevar a cabo grandes hazañas de fuerza. Una vez por partida, al comienzo de un Turno de juego, podrá hacer que su atributo de Fuerza tenga un bonificador de +2 que durará hasta el final de ese Turno de juego.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "7eb8-a673-60b9-4f91",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "e804-5481-9979-ec2c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Maza",
+                "id": "b31f-b9eb-3c63-89e0",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "ba22-c2ae-7896-7054",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Filo pesado",
+                "id": "c5f8-03d6-b85b-30b3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e5e6-095e-5017-1921",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "868a-6ab5-2a6f-c1d6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}]
+              },
+              {
+                "name": "Maza pesada",
+                "id": "d365-f18a-543f-0f9f",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "c1b8-e68a-3435-6b67",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "5321-679c-697c-fd12",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              }
+            ]
+          },
+          {
+            "name": "Artículos de coña",
+            "id": "d613-cb23-d121-8f61",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "09da-7efa-5908-2396",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Bocina",
+                "id": "178a-ef3b-80cc-b704",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "8bab-994b-5f61-40d2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  },
+                  {
+                    "id": "75c1-fe7c-2ccf-a894",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Bocina",
+                    "id": "51a6-ac66-7cfb-0eef",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura es Asaltada podrá pegarle un bocinazo al rival que hará que pierda todos los modificadores del Asalto por el susto.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bomba fétida",
+                "id": "1291-ac93-05dd-ee23",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "1b06-cc50-c8bc-097c",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "040a-31b3-8f7e-8328",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Bomba fétida",
+                    "id": "161e-88e8-bc78-52ea",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "puedes lanzar la bomba fétida a tus pies dejando un marcador permanente de 5 cm de radio. Cualquier miniatura en contacto que haga una Tirada de Técnica tendrá un penalizador de -4.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cojín de pedos",
+                "id": "f12c-8afb-663e-dc91",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "978e-926c-ae14-c470",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "1404-a13a-5fd0-ac25",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Cojín de pedos",
+                    "id": "81f3-7d48-66e5-ff0c",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "un Pachacho equipado con el cojín será capaz de sobrevivir al disparo del cañón lanzador con un resultado en la Tirada de Precisión de 1-2 en lugar de 1.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flor escupe agua",
+                "id": "9a0c-c84c-39cc-e644",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "1b40-bdc0-3dfa-3301",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "75b0-ad05-3e22-5d1d",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Flor escupe agua",
+                    "id": "49c5-98a2-e225-3737",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura ya está trabada en Combate puede usar la flor para causar un penalizador de -2 al Combate a su rival a la hora de Combatir (ya sea su Turno de Acción o el del rival).",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Globo que flota",
+                "id": "8940-20ef-2b19-5961",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "eda3-16fa-753e-d1a5",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "2488-8525-dec4-7256",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Globo que flota",
+                    "id": "c37e-c46f-da1c-4aff",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura equipada resulta abatida el globo producirá una deflagración impactando a todas las miniaturas a 5 cm con fuerza 2 penetración 3.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Guante cond escarga",
+                "id": "9125-2d03-6fa4-aa68",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "65bf-3bf7-ec6d-d499",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "2394-1050-25a2-b8f8",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Guante cond escarga",
+                    "id": "ba3f-671c-40ac-dfec",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [{"name": "Reglas", "$text": "si la miniatura es impactada en Combate puede decidir tener la Regla especial Electrificación.", "typeId": "f042-739d-9839-c439"}]
+                  }
+                ]
+              },
+              {
+                "name": "Pañuelos infinitos",
+                "id": "0908-43d4-2c3c-1093",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "23a9-725f-8c66-59ee",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "a837-7cde-23be-16b6",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Pañuelos infinitos",
+                    "id": "269a-80b1-fd06-1b6b",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura va a ser el objetivo de un disparo puede usar los pañuelos para despistar y que el atacante sufra un penalizador de -2 a la Precisión.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Acróbata",
+        "id": "0a84-726c-9a0d-b163",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5a23-aaad-d30b-9414", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 40}],
+        "infoLinks": [
+          {"name": "Todoterreno", "id": "a739-e846-541c-6f3e", "hidden": false, "targetId": "a662-52ec-031c-0620", "type": "rule"},
+          {"name": "Trepador", "id": "3df4-a0dc-b804-373c", "hidden": false, "targetId": "27b8-89f5-8007-e446", "type": "rule"},
+          {"name": "Raudo", "id": "fc4b-b269-2b72-7ac2", "hidden": false, "targetId": "f4a1-7d89-1648-d18a", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "Acróbata",
+            "id": "8406-347a-2646-091e",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "6", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "4", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Catapulta infernal",
+            "id": "8a2e-416a-9f86-bcfa",
+            "description": "Los Acróbatas entrenan en pareja una técnica especial para saltar contra el enemigo. Al empezar la partida puedes hacer parejas de Acróbatas. Mientras un Acróbata esté en contacto con su pareja (y solo con ella), pasará a tener la Regla especial Salto. Usar un salto para Asaltar un enemigo en siempre peligroso, y si lo hacen deber  ́superar una Tirada de Agilidad. Si la superan se considerará que la miniatura asaltada está de espaldas (vale, técnicamente estará debajo), pero si la fallan, perderán todos los bonificadores del Asalto.",
+            "hidden": false
+          },
+          {
+            "name": "Escapista",
+            "id": "3a9f-3aa5-9aa2-bf23",
+            "description": "Los Acróbatas son escapistas consumados y pueden Separarse de un Combate sin necesidad de hacer una tirada enfrentada.",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "0300-0784-f94c-aa47",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "24e2-919d-dce8-054a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Cuchillos arrojadizos",
+                "id": "8bdd-688a-f6af-bad4",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fbb9-71e9-2b8c-6c33",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "fcf8-df18-b0cd-28ee",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Filo pequeño",
+                "id": "b5e4-c406-6a68-1c83",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6995-21e7-20db-6963",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Maza ligera",
+                "id": "99bd-2350-c7a2-6f99",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6c34-09b0-75e7-ea11",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Filo medio",
+                "id": "7829-8195-0129-e227",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "0424-8c3f-6ad0-8237",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "34f4-de02-a28e-9063",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}]
+              }
+            ]
+          },
+          {
+            "name": "Artículos de coña",
+            "id": "4492-6e88-8177-e3ce",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "009b-f9e4-b59e-0a6e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Bocina",
+                "id": "5669-7bff-631c-6436",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "fb57-0ef5-2393-0cb2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  },
+                  {
+                    "id": "c9ba-9cf1-7423-b12f",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Bocina",
+                    "id": "7d3b-059a-fdc9-2b1a",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura es Asaltada podrá pegarle un bocinazo al rival que hará que pierda todos los modificadores del Asalto por el susto.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bomba fétida",
+                "id": "b350-d63a-c130-4ec6",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "7d18-80fe-8544-efc2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "fa7e-6cd2-572c-8030",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Bomba fétida",
+                    "id": "1312-936f-515d-dfce",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "puedes lanzar la bomba fétida a tus pies dejando un marcador permanente de 5 cm de radio. Cualquier miniatura en contacto que haga una Tirada de Técnica tendrá un penalizador de -4.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cojín de pedos",
+                "id": "389f-df14-49e5-33b3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "4f77-08c4-f4d2-a788",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "11e6-5390-aa22-165c",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Cojín de pedos",
+                    "id": "0ca0-6523-7e1e-0289",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "un Pachacho equipado con el cojín será capaz de sobrevivir al disparo del cañón lanzador con un resultado en la Tirada de Precisión de 1-2 en lugar de 1.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flor escupe agua",
+                "id": "4255-6823-12a4-5380",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "8a68-1e15-4723-c41c",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "5b01-1475-36ac-2693",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Flor escupe agua",
+                    "id": "36ef-a028-3f73-ea7e",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura ya está trabada en Combate puede usar la flor para causar un penalizador de -2 al Combate a su rival a la hora de Combatir (ya sea su Turno de Acción o el del rival).",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Globo que flota",
+                "id": "d4ef-e336-c7fe-0fd3",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "059a-077c-3baf-b59e",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "b02e-1d8e-1d84-2ec2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Globo que flota",
+                    "id": "1a9a-0dff-dbec-506e",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura equipada resulta abatida el globo producirá una deflagración impactando a todas las miniaturas a 5 cm con fuerza 2 penetración 3.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Guante cond escarga",
+                "id": "4eff-a4bc-3f00-ff82",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "5e66-9642-49f9-ba09",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9e36-1dd0-5d6b-7a81",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Guante cond escarga",
+                    "id": "c1e7-6614-67f9-4226",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [{"name": "Reglas", "$text": "si la miniatura es impactada en Combate puede decidir tener la Regla especial Electrificación.", "typeId": "f042-739d-9839-c439"}]
+                  }
+                ]
+              },
+              {
+                "name": "Pañuelos infinitos",
+                "id": "e510-c3e8-4b02-6005",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "9954-1868-06c1-1aa2",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "c840-ad81-390e-4b97",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Pañuelos infinitos",
+                    "id": "78f2-0a1d-62d0-3624",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura va a ser el objetivo de un disparo puede usar los pañuelos para despistar y que el atacante sufra un penalizador de -2 a la Precisión.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pachacho",
+        "id": "7dc7-4c9f-de07-b418",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1238-e534-05d6-9826", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 18}],
+        "entryLinks": [
+          {
+            "name": "Ropa resistente",
+            "id": "dd6f-d588-3aa5-74a2",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86ad-a9ee-d23d-f726",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e09f-20ac-28b6-a1cc",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "09b7-f3e0-318a-65ca",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Cuero endurecido",
+            "id": "06f7-77c9-79c5-0d66",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "eeea-45d8-03cc-15ca",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "6db5-6b2a-f35a-05ac",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Pachacho",
+            "id": "8f94-2446-c48a-2940",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "3", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Zapatones",
+            "id": "4a05-c6c4-ce47-a662",
+            "description": "Si un Pachacho desea Asaltar a una miniatura enemiga y no llega por una distancia de 2,5 cm o menos, gracias a los zapatones podrá adelantarse esa distancia de manera automática y por tanto podrá Asaltar. Pero cuidado, eso mismo sucederá si le Asaltan a él.",
+            "hidden": false
+          },
+          {
+            "name": "Risa difícil",
+            "id": "84a6-7476-019c-6ea3",
+            "description": "Al igual que los típicos payasos de toda la vida, los Pachachos de la Hermandad de la Risa Floja suelen causar emociones polarizadas, o te hacen mucha gracia o los odias a muerte. Luchar contra Pachachos es como tirar una moneda. Cuando una miniatura Dispare o Combata contra un Pachacho tendrá que ver si su tirada de Precisión o Combate (lo que tenga que utilizar) es par o impar. Si fuera par se sumará 2 a la tirada (hasta un resultado máximo de 10) pero con un resultado impar se restará 2 (hasta un mínimo de 1).",
+            "hidden": false
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Armas",
+            "id": "057c-8d6a-0f35-b9da",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "entryLinks": [
+              {
+                "name": "Maza ligera",
+                "id": "2800-f48e-f2c1-cff1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "fb16-c7ed-2bf7-20d4",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "1cce-d5e3-4aee-3d0f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 3}]
+              },
+              {
+                "name": "Pistola",
+                "id": "fb52-ebbd-3a52-b92d",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "eb59-93d0-ab75-4c88",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "f3a8-e661-1925-95af",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              },
+              {
+                "name": "Filo pequeño",
+                "id": "8352-87f5-96db-a791",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "d661-b37c-29d0-a025",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "1768-373b-0ded-8030",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}]
+              },
+              {
+                "name": "Escopeta",
+                "id": "0774-1ea9-66a1-0d47",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "e428-2fd2-6b4d-1344",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "60ce-9fea-5fa8-58a2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}]
+              },
+              {
+                "name": "Maza",
+                "id": "89d9-e9b4-6abc-4654",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "4c50-148e-9eaa-0e70",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "da5a-fee1-7788-85a7",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Cañón de confetí",
+                "id": "9077-1f74-45ad-94ee",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "22b5-a7d0-62d2-973f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9db3-1315-ce73-cc0e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 6}],
+                "infoLinks": [
+                  {"name": "Escasa", "id": "0ab4-daa3-4ff5-8ff7", "hidden": false, "targetId": "5262-ab17-7ea7-f682", "type": "rule"},
+                  {"name": "Lentorra", "id": "5e71-609e-aa22-a28a", "hidden": false, "targetId": "93e2-9b71-26df-289d", "type": "rule"},
+                  {"name": "Postas", "id": "096f-db69-cc19-1285", "hidden": false, "targetId": "3024-745a-5aa2-9b8b", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Cañón de confetí",
+                    "id": "5606-bd16-3010-bed4",
+                    "hidden": false,
+                    "typeId": "7089-c608-3647-16e3",
+                    "typeName": "Armas a distancia",
+                    "characteristics": [
+                      {
+                        "name": "Reglas especiales",
+                        "$text": "Los cañones de confeti hacen gracia a cuatro gatos, entre ellos a los integrantes de la Hermandad de la Risa Floja. Construidos por ellos mismos a imagen y semejanza de los del Mundo de Antaño, estos cañones meten más ruido, cargan mucha más pólvora y hacen menos puta gracia todavía que los que vendían en los chinos.\n\nLos papelitos brillantes son numerosos y dan por culo que flipas, así que cualquier miniatura impactada que no haya sido Abatida sufrirá un penalizador de -1 a la Agilidad hasta que gaste una Acción en limpiarse. En cualquier caso, seguirá encontrando confeti de mierda en su ropa durante un mes.\nPrimero deberá gastar la Acción en disparar y luego se calculará la distancia (no tiene modificadores por distancia). Si no llega, pues mala suerte, Acción perdida.",
+                        "typeId": "8a87-25fd-fe02-13e7"
+                      },
+                      {"name": "Distancia", "$text": "1d10 x 5 cm", "typeId": "e3cc-c79f-36e8-ca84"},
+                      {"name": "Fuerza", "$text": "3", "typeId": "c02a-4690-9a12-55e4"},
+                      {"name": "Penetración", "$text": "5", "typeId": "9563-bb3e-ec5c-02a1"}
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Guante de boxeo extensible",
+                "id": "3a7f-caea-0a89-cbcb",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "11ff-4f50-88e6-487f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": false,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "c616-1bd1-8f7c-f0b2",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 4}],
+                "infoLinks": [
+                  {"name": "Escasa", "id": "59ff-071c-0862-f945", "hidden": false, "targetId": "5262-ab17-7ea7-f682", "type": "rule"},
+                  {"name": "Lentorra", "id": "fcc7-f592-bfc2-ae34", "hidden": false, "targetId": "93e2-9b71-26df-289d", "type": "rule"}
+                ],
+                "profiles": [
+                  {
+                    "name": "Guante de boxeo extensible",
+                    "id": "91e4-00ed-b593-3fb1",
+                    "hidden": false,
+                    "typeId": "d423-695b-6fc2-31d9",
+                    "typeName": "Armas cuerpo a cuerpo",
+                    "characteristics": [
+                      {"name": "Combate", "$text": "+2", "typeId": "3bcb-590f-e624-084f"},
+                      {"name": "Fuerza", "$text": "+2", "typeId": "959a-27b3-5665-eaae"},
+                      {"name": "Penetración", "$text": "1", "typeId": "af0e-e291-c826-bf01"},
+                      {
+                        "name": "Reglas especiales",
+                        "$text": "Mediante un mecanismo chungo la gente de la Hermandad puede hacer que un guante de boxeo salga disparado contra sus enemigos. Tópico pero efectivo.",
+                        "typeId": "55ae-0d53-f265-651a"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Artículos de coña",
+            "id": "5f5f-f17a-ed8a-0d01",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "constraints": [
+              {
+                "id": "9f01-dc20-bec7-b9e8",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "selectionEntries": [
+              {
+                "name": "Bocina",
+                "id": "17a5-ee0d-968a-ccf5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "0877-1d74-d7e3-6a0e",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  },
+                  {
+                    "id": "84fa-0e34-ef17-794b",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Bocina",
+                    "id": "1733-7fd5-f4ac-be51",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura es Asaltada podrá pegarle un bocinazo al rival que hará que pierda todos los modificadores del Asalto por el susto.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Bomba fétida",
+                "id": "7d6c-83a4-573e-cbb9",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "fe88-dc0d-b407-786d",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "d2b5-1871-8a11-d1ad",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Bomba fétida",
+                    "id": "878e-d7b5-d2d3-afe8",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "puedes lanzar la bomba fétida a tus pies dejando un marcador permanente de 5 cm de radio. Cualquier miniatura en contacto que haga una Tirada de Técnica tendrá un penalizador de -4.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cojín de pedos",
+                "id": "6be0-e44d-3bee-5cec",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "598a-e62e-6b7f-8952",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "6079-46fa-831c-f412",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Cojín de pedos",
+                    "id": "35d2-b21c-cf90-138e",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "un Pachacho equipado con el cojín será capaz de sobrevivir al disparo del cañón lanzador con un resultado en la Tirada de Precisión de 1-2 en lugar de 1.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Flor escupe agua",
+                "id": "037a-b2a9-04a3-19cf",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "7eff-333e-8764-5045",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "9972-b52e-8e50-e03f",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Flor escupe agua",
+                    "id": "c496-9cb4-67f3-2ede",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura ya está trabada en Combate puede usar la flor para causar un penalizador de -2 al Combate a su rival a la hora de Combatir (ya sea su Turno de Acción o el del rival).",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Globo que flota",
+                "id": "aa9a-db40-1e48-63d1",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "556d-fff5-396f-0ba3",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "7edb-7d3e-57a3-f784",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Globo que flota",
+                    "id": "0c7c-f924-1ceb-16f6",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura equipada resulta abatida el globo producirá una deflagración impactando a todas las miniaturas a 5 cm con fuerza 2 penetración 3.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Guante cond escarga",
+                "id": "56f7-411a-0ad8-8276",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "a4df-f97e-ba77-e2b0",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "6353-2172-c814-cd13",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Guante cond escarga",
+                    "id": "e335-ccfa-445f-361a",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [{"name": "Reglas", "$text": "si la miniatura es impactada en Combate puede decidir tener la Regla especial Electrificación.", "typeId": "f042-739d-9839-c439"}]
+                  }
+                ]
+              },
+              {
+                "name": "Pañuelos infinitos",
+                "id": "4e1d-15ee-68b6-425a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "id": "cbad-c870-8766-3310",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  },
+                  {
+                    "id": "6bc5-0d73-1c80-f7fd",
+                    "field": "selections",
+                    "includeChildForces": false,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "roster",
+                    "shared": true,
+                    "type": "max",
+                    "value": 3
+                  }
+                ],
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 5}],
+                "profiles": [
+                  {
+                    "name": "Pañuelos infinitos",
+                    "id": "ed59-a5d9-933f-c940",
+                    "hidden": false,
+                    "typeId": "d233-c9f9-0a53-3040",
+                    "typeName": "Equipo especial",
+                    "characteristics": [
+                      {
+                        "name": "Reglas",
+                        "$text": "si la miniatura va a ser el objetivo de un disparo puede usar los pañuelos para despistar y que el atacante sufra un penalizador de -2 a la Precisión.",
+                        "typeId": "f042-739d-9839-c439"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Domador",
+        "id": "62ef-3892-a32e-97c9",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "d814-2af2-8582-1682", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 25}],
+        "entryLinks": [
+          {
+            "name": "Ropa resistente",
+            "id": "acaa-a982-dc59-4207",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86ad-a9ee-d23d-f726",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "6470-20a8-bfb9-24c5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "87bf-83e5-10e7-c234",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Domador",
+            "id": "2ec0-a627-eeb1-7c09",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Señor de las bestias",
+            "id": "f6e5-69f3-819b-1eef",
+            "description": "Un domador puede adquirir hasta 2 bestias por +12 puntos cada una. Estas bestias, de diferentes formas y tamaños están armadas con Garras y dientes y, como no podía ser de otra manera, tienen la regla especial Bestia. Ten en cuenta que aunque las adquieras con el Domador, cuentan para el máximo de miniaturas de la banda.\nLas bestias siempre deben tratar de estar como máximo a 15 cm de su domador, no pudiendo alejarse más voluntariamente. Si no lo estuvieran, cuando sea el momento de actuar de las bestias deben usar todas las Acciones necesarias en Mover para cumplir esto. Si su Domador resulta abatido, cuando sea el Turno de Acción de las bestias debes tirar 1d10 por cada una en la siguiente tabla para ver cómo actúan. \n\n1 La bestia intentará asaltar a la miniatura de su propia banda a la que llegue más fácilmente. Si no llegara a Asaltar, se acercará lo máximo posible.\n2-3 La bestia tratará de huir, avanzando lo máximo posible hacia el borde del tablero más cercano.\n4-6 La bestia se quedará en el sitio atontada.\n7+ La bestia intentará asaltar a la miniatura de la banda rival a la que llegue más fácilmente. Si no llegara a Asaltar, se acercará lo máximo posible.",
+            "hidden": false
+          },
+          {
+            "name": "Avivar",
+            "id": "cd61-ad5e-adfa-290c",
+            "description": "Un domador puede usar su látigo para avivar a una bestia. Si está en contacto con una de sus bestias puede usar una Acción y la bestia obtendrá un bonificador de +1 a la Fuerza y Dureza durante lo que queda de ese Turno de Juego.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Látigo",
+            "id": "bb81-59cf-37cf-6ac9",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "97a8-34b9-091b-5d6b",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "be32-bcd4-bcdc-e3d5",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+            "profiles": [
+              {
+                "name": "Látigo",
+                "id": "ac6f-321b-3510-7cbf",
+                "hidden": false,
+                "typeId": "d423-695b-6fc2-31d9",
+                "typeName": "Armas cuerpo a cuerpo",
+                "characteristics": [
+                  {"name": "Combate", "$text": "+0", "typeId": "3bcb-590f-e624-084f"},
+                  {"name": "Fuerza", "$text": "+1", "typeId": "959a-27b3-5665-eaae"},
+                  {"name": "Penetración", "$text": "3", "typeId": "af0e-e291-c826-bf01"},
+                  {
+                    "name": "Reglas especiales",
+                    "$text": "Consiste en una vara de la que sale una correa, cordel o soga de cuero con la que se aviva a las bestias.",
+                    "typeId": "55ae-0d53-f265-651a"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bestia",
+            "id": "f8e1-7d77-7502-fdf1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "categoryLinks": [{"name": "Miembros de la banda", "id": "8a97-70ab-f484-b4dd", "hidden": false, "primary": false, "targetId": "c87a-d4ad-78b4-37a2"}],
+            "constraints": [
+              {
+                "id": "392d-48c0-d80f-d822",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 12}],
+            "profiles": [
+              {
+                "name": "Bestia",
+                "id": "0aef-bbcd-1a10-32df",
+                "hidden": false,
+                "typeId": "6b1d-6cde-5b9e-f5e2",
+                "typeName": "Perfil",
+                "characteristics": [
+                  {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+                  {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+                  {"name": "Precisión", "$text": "-", "typeId": "9d88-57a7-635e-3622"},
+                  {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+                  {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+                  {"name": "Dureza", "$text": "5", "typeId": "ee78-dafb-2dc2-a52a"},
+                  {"name": "Técnica", "$text": "-", "typeId": "8422-cbe6-6791-4a35"},
+                  {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "François el mimo",
+        "id": "c94b-94c7-7569-9fb3",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "83fe-2b4b-c225-9529", "hidden": false, "primary": true, "targetId": "817f-584d-2021-2668"}],
+        "constraints": [
+          {
+            "id": "2911-9a74-97f0-4aa0",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 30}],
+        "profiles": [
+          {
+            "name": "François el mimo",
+            "id": "1bee-aa0a-d344-346c",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "3", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "¡Matad a eso!",
+            "id": "a1a1-6f14-0f3f-69fd",
+            "description": "Es imposible concentrarse en liquidar a nadie más si François está cerca. Si un enemigo quiere Asaltar o Disparar a un enemigo y François pudiera ser también blanco de esos ataques, está obligado a hacerlo contra François.",
+            "hidden": false
+          },
+          {
+            "name": "Mimo",
+            "id": "9a2d-1437-0a1f-eba5",
+            "description": "François se puede poner en plan pesado imitando a alguien hasta el mínimo detalle. Si François está a 30 cm o menos de una miniatura enemiga no Abatida de tamaño y forma humana en Línea de visión, puede gastar una Acción y pasará a tener todos los Atributos y equipo de esa miniatura. Será como un clon, vamos. Podrá mantenerse así mientras siga manteniendo todas las condiciones anteriores.",
+            "hidden": false
+          },
+          {
+            "name": "Muro imaginario",
+            "id": "cd20-66ce-e75a-9486",
+            "description": "A François le mola mucho hacer gestitos con las manos como si tuviera un muro delante hasta el punto de que realmente funciona. François puede gastar una Acción en crear un muro que le proporciona a él y solo él un bonificador de Cobertura de +6 por el frente (en su Línea de visión). Sin embargo, en cuanto se mueva de ese lugar el muro perderá su efecto.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Cañon lanzador",
+        "id": "fd7b-8925-6f9c-d0f2",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "7e31-871e-d5c4-16d3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 10}],
+        "profiles": [
+          {
+            "name": "Cañon lanzador",
+            "id": "e8fc-302a-c3d0-4707",
+            "hidden": false,
+            "typeId": "d233-c9f9-0a53-3040",
+            "typeName": "Equipo especial",
+            "characteristics": [
+              {
+                "name": "Reglas",
+                "$text": "Debes desplegar el cañón en tu zona de despliegue antes de comenzar a desplegar las miniaturas. Cualquier Pachacho o Acróbata en contacto con el cañón lanzador puede gastar una Acción en auto-dispararse hacia un enemigo en Línea de visión a una distancia máxima de 90 cm y con una precisión de 5 (no tiene modificadores por distancias ni se puede Apuntar). En caso de impactar lo hará con Fuerza 7 y Penetración 10. Si no impacta, la miniatura lanzada saldrá despedida fuera de la mesa y se considerará Abatida (aunque no podrá ser Rapiñada). Si la miniatura impacta quedará en contacto con la miniatura objetivo, pero resultará Abatida al instante salvo que saque un 1 en la Tirada de Precisión. Si la miniatura objetivo no ha quedado Abatida, pasarán a estar trabadas en cuerpo a cuerpo, pero sin que se haya producido ningún asalto.\nEste equipo está limitado a 1 por banda.",
+                "typeId": "f042-739d-9839-c439"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chismeciclo",
+        "id": "dc3e-d93e-657a-baf1",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 8}],
+        "profiles": [
+          {
+            "name": "Chismeciclo",
+            "id": "740d-0226-6131-438e",
+            "hidden": false,
+            "typeId": "d233-c9f9-0a53-3040",
+            "typeName": "Equipo especial",
+            "characteristics": [
+              {
+                "name": "Reglas",
+                "$text": "Puedes decidir que un Pachacho vaya montado en un chismeciclo. Una vez por Turno de Acción y siempre que vaya por Terreno chachi pasará a tener la Regla especial Raudo durante una Acción de Movimiento si supera una Tirada de Fuerza. Un Pachacho en chismeciclo perderá su Regla especial Zapatones.",
+                "typeId": "f042-739d-9839-c439"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Coche  de pachachos",
+        "id": "6da7-292f-1317-5dd5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "aae1-ab4c-88c8-1306",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 25}],
+        "profiles": [
+          {
+            "name": "Coche  de pachachos",
+            "id": "2344-edca-3d2a-8f8b",
+            "hidden": false,
+            "typeId": "d233-c9f9-0a53-3040",
+            "typeName": "Equipo especial",
+            "characteristics": [
+              {
+                "name": "Reglas",
+                "$text": "Antes de comenzar la partida y de que ninguna miniatura sea desplegada puedes colocar el coche de pachachos en cualquier lugar de la mesa fuera de las zonas de despliegue. Cuando sea el turno de desplegar de tus tropas de Pachachos puedes decidir que lo hagan desde el coche. Antes de desplegar una miniatura deberás ver a qué distancia de tu zona de despliegue está el coche y hacer una tirada. Si consigues el resultado indicado podrás desplegar un Pachacho pegado al coche. Podrás seguir\nintentando desplegar Pachachos hasta que falles una tirada, momento en el que deberán desplegar de la manera habitual.\n0 a 10 cm  \t2+\n+10 cm a 20 cm \t4+\n+20 cm a 30 cm \t6+\n+30 cm a 40 cm \t7+\n+40 cm a 50 cm \t8+\n+50 cm a 60 cm \t9+\n\nEjemplo. Colocas el coche de pachachos a 27 cm de tu Zona de despliegue. Decides desplegar un Pachacho en el coche y sacas un 7, por lo que puedes desplegarlo en contacto con este. Vuelves a intentar desplegar un Pachacho en el coche y sacas un 9, así que también puedes delegarlo allí. Lo intentas con otro Pachacho y sacas un 3, que al ser menor a los 6+ necesarios no te permite desplegarlo en el coche. Este Pachacho y cualquiera que quieras desplegar después deberá desplegar de la manera habitual.",
+                "typeId": "f042-739d-9839-c439"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
