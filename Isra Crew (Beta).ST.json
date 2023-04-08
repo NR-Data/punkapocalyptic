@@ -1,0 +1,1029 @@
+{
+  "catalogue": {
+    "name": "Isra Crew (Beta)",
+    "id": "59be-e00a-1077-12e6",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "fab7-8d9f-25c5-73bc",
+    "gameSystemRevision": 39,
+    "library": false,
+    "revision": 5,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {
+        "name": "Caronte",
+        "id": "ca64-fb19-5533-4f6c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "80b4-60a4-2e4d-e814",
+        "type": "selectionEntry",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "59b7-e9a7-21a8-8d47", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}]
+      }
+    ],
+    "selectionEntries": [
+      {
+        "name": "Dan (novato)",
+        "id": "8328-13fb-e741-5b73",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "dad3-9144-28b9-fe67", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 45}],
+        "entryLinks": [
+          {
+            "name": "Escopeta",
+            "id": "4241-09f6-a762-7a16",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e428-2fd2-6b4d-1344",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "85a7-c02c-e60d-5b01",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "ee72-f0b8-aabf-28b4",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Balas",
+                "id": "c7d6-1a9d-d0d6-d780",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "25da-dbee-5744-9a80",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}]
+              }
+            ]
+          },
+          {
+            "name": "Chaleco antibalas",
+            "id": "58d5-db86-7fdf-1e16",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2236-226d-82a2-65ff",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "2e06-8ac4-1f5a-e133",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "cfb5-3797-8eee-cb44",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dan (novato)",
+            "id": "6cb2-96a4-967a-9dcf",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "4", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4(5)", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4(5)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Demasiado honorable",
+            "id": "a748-7575-2a63-38c7",
+            "description": "Dan nunca atacará a alguien que no tenga línea de visión sobre él. A distancia directamente no disparará. En cuerpo a cuerpo, el asaltado tendrá que tener línea de visión sobre Dan como mínimo en la última Acción del Asalto, y Dan solo obtendrá bonificadores extra por cada opción donde no solo él estuviera viendo al asaltado, sino también el asaltado a Dan.",
+            "hidden": false
+          },
+          {
+            "name": "Compañerismo",
+            "id": "9400-7c1d-caad-b99e",
+            "description": "Dan es muy amigo de sus amigos y como algún compañero sufra daño sacará fuerzas de flaqueza. Tendrá los siguientes bonificadores acumulativos por cada miniatura de la propia banda que haya sido Abatida:\n    \nCompañeros Abatidos      Bonificador\n1\t\t\t\t\t\t+1 Precisión\n2\t\t\t\t\t\t+1 Combate\n3\t\t\t\t\t\t+1 Dureza\n4+\t\t\t\t\t\t+1 Acción",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Dan",
+        "id": "0fef-dfff-a260-0499",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1f5c-ff4b-9c6e-c9dc", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 75}],
+        "entryLinks": [
+          {
+            "name": "Pistola",
+            "id": "972f-80eb-047d-42d4",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "eb59-93d0-ab75-4c88",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "fcec-6325-4d28-43a2",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 2
+              },
+              {
+                "id": "4ec9-4df0-3250-f890",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Balas",
+                "id": "3e05-cbe6-602a-d13a",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "25da-dbee-5744-9a80",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}]
+              }
+            ]
+          },
+          {
+            "name": "Chaleco antibalas",
+            "id": "31eb-dad3-8075-ebf0",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "2236-226d-82a2-65ff",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "8a39-ebc9-dd39-fda4",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "06d6-9697-4b24-91a1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Dan",
+            "id": "b622-1632-6051-e5be",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "5", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "5", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "5", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4(5)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "3", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Ensalada de tiros",
+            "id": "7066-b4da-f2ff-14ed",
+            "description": "Dan puede disparar usando una sola Acción a dos miniaturas distintas (una con cada pistola). Sin embargo, estos disparos tendrán un -1 a Precisión y al hacer esto no se beneficiará de Apuntar ni podrá usarlo en Fuego Defensivo.",
+            "hidden": false
+          },
+          {
+            "name": "Compañerismo",
+            "id": "ed5b-dce2-45a5-0fee",
+            "description": "Dan es muy amigo de sus amigos y como algún compañero sufra daño sacará fuerzas de flaqueza. Tendrá los siguientes bonificadores acumulativos por cada miniatura de la propia banda que haya sido Abatida:\n    \nCompañeros Abatidos      Bonificador\n1\t\t\t\t\t\t+1 Precisión\n2\t\t\t\t\t\t+1 Combate\n3\t\t\t\t\t\t+1 Dureza\n4+\t\t\t\t\t\t+1 Acción",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Rita",
+        "id": "203e-2f9f-16bb-2c22",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4040-9dd8-9b7a-1f44", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 80}],
+        "entryLinks": [
+          {
+            "name": "Filo medio",
+            "id": "3dac-f9fd-e618-67f1",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "0424-8c3f-6ad0-8237",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "2105-1dce-217d-71cb",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "857d-73b9-b53c-26da",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Ballesta",
+            "id": "a856-0004-201e-8f8f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "adde-dfd0-58c6-1115",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "f259-c5b1-bdb4-ff2a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "d990-241f-05c4-a7d5",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Cuero endurecido",
+            "id": "d97a-eb95-ef26-b103",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "eeea-45d8-03cc-15ca",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "ebfd-f57f-cddb-4539",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "1274-772b-6a05-9d75",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Rita",
+            "id": "a85c-f84a-44d1-95c5",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "6(7)", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "6", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "5", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4(6)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "4", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "4", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Molonidad",
+            "id": "6461-d521-9c80-9a0f",
+            "description": "Rita desprende molonidad por todos sus poros. De esas cosas que se tienen o no y que dejan a la gente boquiabierta mirando para ella. Si un enemigo se encuentra a 30 cm de Rita cuando ésta haya Abatido a alguien en cuerpo a cuerpo tendrá un penalizador de -1 a la Precisión y Combate durante su siguiente Turno de Acción.",
+            "hidden": false
+          },
+          {
+            "name": "Recarga en movimiento",
+            "id": "296b-5aa2-7893-a963",
+            "description": "Rita domina el arte de moverse y recargar. Cuando realice una Acción de Movimiento puede recargar la ballesta automáticamente",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Markus",
+        "id": "13e5-5649-685c-4c2a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e3b4-5af7-432c-afcd", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 50}],
+        "entryLinks": [
+          {
+            "name": "Escopeta",
+            "id": "1dde-1bb7-4287-de56",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "e428-2fd2-6b4d-1344",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "00aa-d0c3-6574-93bf",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "a6b2-7ac2-1c3b-e29c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Balas",
+                "id": "1868-94bb-c034-2820",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "25da-dbee-5744-9a80",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}]
+              }
+            ]
+          },
+          {
+            "name": "Cuero endurecido",
+            "id": "7d94-60b3-5f36-4c82",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "eeea-45d8-03cc-15ca",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "8ef1-3e74-f196-5c4e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "253f-8a2f-8e8d-a424",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Markus",
+            "id": "6ea2-5a97-cdcb-bbac",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "5", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "5(6)", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "4(5)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "4", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "5", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Mal encarado",
+            "id": "ef60-6dcb-caf5-d0ee",
+            "description": "Markus no destaca por su buen carácter y es capaz de insultarte de mil maneras con o sin palabras. Puede gastar una Acción en provocar a una miniatura rival que esté a un máximo de 30 cm de distancia y con línea de visión sobre él. Esa miniatura estará tan fuera de sí que contará como si tuviese la Regla especial Monguer hasta final de ese Turno de juego.",
+            "hidden": false
+          },
+          {
+            "name": "Trucos sucios",
+            "id": "5d45-79b2-9f76-3ec6",
+            "description": "Markus no desaprovecha cualquier medio para ganar. Cuando dispare a una miniatura sin línea de visión hacia él obtendrá un +1 a la Precisión y cuando Asalte a una miniatura sin línea de visión hacia él obtendrá un +1 adicional al Combate.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Nicole",
+        "id": "415f-eaa5-41b9-9c4a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a4ef-3ee7-d5be-79e2", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 50}],
+        "entryLinks": [
+          {
+            "name": "Maza",
+            "id": "7c8d-118a-e650-ce74",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "4c50-148e-9eaa-0e70",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "6829-f72d-920e-731e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "856b-6e8b-50df-d6f1",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Ropa resistente",
+            "id": "3209-603a-d9db-2528",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86ad-a9ee-d23d-f726",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "4707-eb2e-f3c3-e8b7",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "e60e-f694-a8c0-c231",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Nicole",
+            "id": "4711-7f3e-7a05-f6c7",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "5", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "5(7)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "5", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "7", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Voluntariosa",
+            "id": "2c3c-e136-2f08-21ad",
+            "description": "Nicole ha vivido muchas desgracias y ha sobrevivido a todas ellas con una voluntad inquebrantable. Puede decidir gastar una Acción y obtener un bonificador de +1 a la Dureza. Podrá hacer esto durante más Acciones hasta conseguir un máximo de +3. Tras la primera ocasión en que tenga que realizar una Tirada de su Dureza contra la Fuerza de algún ataque, esté bonificador se perderá. Si lo desea, puede volver a repetir el proceso.",
+            "hidden": false
+          },
+          {
+            "name": "Fuego malo",
+            "id": "0d96-f5e0-bc28-2dd9",
+            "description": "Nicole tiene malas experiencias con el fuego y le afecta especialmente. Nunca atravesará voluntariamente un marcador de Incendiaria.",
+            "hidden": false
+          }
+        ]
+      },
+      {
+        "name": "Paul",
+        "id": "b94c-488a-63e5-1125",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "e92b-6450-ee07-a041", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 40}],
+        "entryLinks": [
+          {
+            "name": "Filo pequeño",
+            "id": "4f49-06c7-3cfa-0f6f",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "d661-b37c-29d0-a025",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "684d-8b7f-98da-a16d",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "67ca-62e1-be6e-4b51",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Extremidad prensil",
+            "id": "6342-e9f9-a884-7840",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "20fc-ba5d-a4c0-2ca4",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "1fc1-2b37-bc06-4603",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "e67c-0016-1cf0-75b5",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Miembros extra",
+            "id": "9344-a305-74a7-7a0e",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "74a6-5144-df0a-8b8d",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "fd18-3dbb-2762-9206",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "fe08-91a0-7737-0820",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Paul",
+            "id": "bf99-7b10-3c46-9221",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3(5)", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "3", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "4", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3(4)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "4", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Asco de vida",
+            "id": "31ac-d0b3-c67d-fe86",
+            "description": "La vida de Paul ha sido un asco, así de sencillo. Está tan acostumbrado a perder que un empate ya es una victoria. Paul ganará cualquier Tirada enfrentada que acabe en empate.",
+            "hidden": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Chorrazo de tinta",
+            "id": "2b95-edd0-39c3-666b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "bae9-4f38-9736-85d8",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              },
+              {
+                "id": "c7b1-6118-5f6f-767f",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 0}],
+            "profiles": [
+              {
+                "name": "Chorrazo de tinta",
+                "id": "5394-74a4-7b7c-ca41",
+                "hidden": false,
+                "typeId": "f576-acaf-cd61-0105",
+                "typeName": "Mutaciones",
+                "characteristics": [
+                  {
+                    "name": "Reglas",
+                    "$text": "Paul es capaz de lanzar un potente chorro de tinta a través de su ojete con el objetivo de incapacitar a sus enemigos. Puede gastar una Acción en lanzar el chorro, para lo que deberá colocarse la plantilla de lanzallamas o lanzarresiduos. Toda miniatura tocada por la plantilla sufrirá un penalizador de -2 al Combate, la Precisión y la Agilidad. Las miniaturas podrán gastar Acciones en limpiarse la tinta, quitando un penalizador de -1 porque cada Acción que gasten.",
+                    "typeId": "261f-7dda-29bf-7c00"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Vale",
+        "id": "52c3-8ad8-33da-09c7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "unit",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6b45-5742-d8ae-0dd1", "hidden": false, "primary": true, "targetId": "c87a-d4ad-78b4-37a2"}],
+        "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 50}],
+        "entryLinks": [
+          {
+            "name": "Rifle",
+            "id": "048b-b904-3451-6f9b",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "9726-34fd-1e5a-f35f",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e1bd-9545-d490-730e",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3a8c-a53a-c720-eb1c",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "entryLinks": [
+              {
+                "name": "Mira telescópica",
+                "id": "47ed-6231-8b8f-11b5",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "2ed0-104f-98ae-e4bf",
+                "type": "selectionEntry",
+                "constraints": [
+                  {
+                    "id": "6c59-31b7-16c8-0e54",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "min",
+                    "value": 1
+                  },
+                  {
+                    "id": "16dd-35e0-873c-1416",
+                    "field": "selections",
+                    "includeChildForces": true,
+                    "includeChildSelections": true,
+                    "percentValue": false,
+                    "scope": "parent",
+                    "shared": true,
+                    "type": "max",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "name": "Balas",
+                "id": "d5fb-08c3-0b4f-4b95",
+                "collective": false,
+                "hidden": false,
+                "import": true,
+                "targetId": "25da-dbee-5744-9a80",
+                "type": "selectionEntry",
+                "costs": [{"name": "Puntos", "typeId": "6ba6-290e-2003-241d", "value": 15}]
+              }
+            ]
+          },
+          {
+            "name": "Ropa resistente",
+            "id": "fa92-526a-3337-4e7a",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "86ad-a9ee-d23d-f726",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "4188-58cf-92c6-e281",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7259-d404-c7a5-ac5a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Protección contra contaminación",
+            "id": "72d8-5eeb-3ef6-f8dc",
+            "collective": false,
+            "hidden": false,
+            "import": true,
+            "targetId": "1c4e-6bf8-7327-3b03",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "f945-ded9-e26d-9e3a",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "11e0-5dd3-618f-a072",
+                "field": "selections",
+                "includeChildForces": true,
+                "includeChildSelections": true,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Vale",
+            "id": "bf7a-3d9d-eff7-7066",
+            "hidden": false,
+            "typeId": "6b1d-6cde-5b9e-f5e2",
+            "typeName": "Perfil",
+            "characteristics": [
+              {"name": "Acciones", "$text": "2", "typeId": "35d2-a478-8824-fda4"},
+              {"name": "Combate", "$text": "3", "typeId": "a021-1c6d-e7d6-39ea"},
+              {"name": "Precisión", "$text": "4", "typeId": "9d88-57a7-635e-3622"},
+              {"name": "Agilidad", "$text": "3", "typeId": "e0a4-9656-26d9-6a44"},
+              {"name": "Fuerza", "$text": "3(4)", "typeId": "26a4-4364-5085-5f30"},
+              {"name": "Dureza", "$text": "3", "typeId": "ee78-dafb-2dc2-a52a"},
+              {"name": "Técnica", "$text": "5", "typeId": "8422-cbe6-6791-4a35"},
+              {"name": "Reglas especiales", "typeId": "16f0-630c-2894-4e0b"}
+            ]
+          }
+        ],
+        "rules": [
+          {
+            "name": "Le tengo",
+            "id": "94ec-ab0e-95a3-1e73",
+            "description": "Una vez que Vale fija el ojo sobre un objetivo, no lo pierde. Vale puede decidir gastar una Acción de Apuntar a un enemigo concreto, y no perderá el bonificador a la Precisión hasta que no lo Abata, independientemente del Turno de juego que sea. No podrá volver a usar esta regla hasta que su objetivo seleccionado no haya sido Abatido (por cualquier circunstancia).",
+            "hidden": false
+          },
+          {
+            "name": "Ocultación",
+            "id": "9e42-09af-0c8b-cca7",
+            "description": "Vale es una experta en disparar sin ser detectada. Obtiene la Regla especial Camuflaje y un bonificador de +1 adicional al Blindaje de una Cobertura tras la que esté.",
+            "hidden": false
+          }
+        ]
+      }
+    ]
+  }
+}
